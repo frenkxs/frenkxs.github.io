@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <title>Olympic disciplines and gender</title>
+
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+
+        <script src="http://dimplejs.org/dist/dimple.v2.2.0.min.js">
+        </script>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+        <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div>
+      <span class="header">
+        <h2>Olympic disciplines and gender</h2>
+      </span>
+    </div>
+
+    <!-- section 1 total -->
+    <div class="section white" id="section1">
+      <p>
+        ‘A fathomless and boundless deep,
+        There we wander, there we weep;
+        On the hungry craving wind
+        My Spectre follows thee behind.
+      </p>
+      <ul class="nav">
+        <li>1</li>
+        <li>&bull;</li>
+        <li><a href="#section2">2</a></li>
+        <li>&bull;</li>
+        <li><a href="#section3">3</a></li>
+        <li>&bull;</li>
+        <li><a href="#section4">4</a></li>
+      </ul>
+
+      <div id="chartContainer02" class="chart">
+        <div class="chartTitle">Total number of olympic disciplines by edition and gender</div>
+
+        <script type="text/javascript">
+        var svg_2 = dimple.newSvg("#chartContainer02", 1300, 500);
+        d3.tsv("/data/disciplines.tsv", function (data) {
+          data = dimple.filterData(data, "Discipline", "total");
+
+          var disciplines = new dimple.chart(svg_2, data);
+
+          disciplines.setBounds(100, 30, 1200, 330);
+          var x = disciplines.addCategoryAxis("x", ["Edition",
+          "Event_gender"]);
+          var y = disciplines.addMeasureAxis("y", "c");
+          disciplines.addSeries("Event_gender", dimple.plot.bar);
+
+          disciplines.addLegend(800, 10, 360, 20, "right");
+
+          disciplines.defaultColors = [
+            new dimple.color("#333333"),
+            new dimple.color("#E23D28"),
+            new dimple.color("#999999"),
+            new dimple.color("#BBBBBB"),
+            new dimple.color("#EEEEEE")];
+            disciplines.draw();
+            x.titleShape.text("Olympic years");
+            y.titleShape.text("Number of disciplines");
+          });
+        </script>
+      </div>
+    </div>
+    <!-- section 2 athletics -->
+    <div class="section white" id="section2">
+      <p>
+      ‘He scents thy footsteps in the snow
+      Wheresoever thou dost go,
+      Thro’ the wintry hail and rain.
+      When wilt thou return again?
+      </p>
+      <ul class="nav">
+        <li><a href="#section1">1</a></li>
+        <li>&bull;</li>
+        <li>2</li>
+        <li>&bull;</li>
+        <li><a href="#section3">3</a></li>
+        <li>&bull;</li>
+        <li><a href="#section4">4</a></li>
+      </ul>
+      <div id="chartContainer03" class="chart">
+        <div class="chartTitle">Number of olympic disciplines by edition and gender</div>
+
+          <script type="text/javascript">
+            var svg_3 = dimple.newSvg("#chartContainer03", 1300, 500);
+            d3.tsv("/data/disciplines.tsv", function (data) {
+              // column 1
+              // row 1
+              data_a = dimple.filterData(data, "Discipline", "athletics");
+              var athletics = new dimple.chart(svg_3, data_a);
+              athletics.setBounds(100, 30, "40%", "30%");
+              var x = athletics.addCategoryAxis("x", ["Edition", "Event_gender"]);
+              var y = athletics.addMeasureAxis("y", "c");
+              var a = athletics.addSeries("Event_gender", dimple.plot.area);
+              a.interpolation = "step";
+              a.lineWeight = 1;
+              athletics.addLegend(800, 10, 360, 20, "right");
+              athletics.defaultColors = [
+                new dimple.color("#333333"),
+                new dimple.color("#E23D28"),
+                new dimple.color("#999999"),
+                new dimple.color("#BBBBBB"),
+                new dimple.color("#EEEEEE")];
+              athletics.draw();
+              x.titleShape.remove();
+              y.titleShape.text("Disciplines");
+
+              // row 2
+              data_s = dimple.filterData(data, "Discipline", "swimming");
+
+              var swimming = new dimple.chart(svg_3, data_s);
+
+              swimming.setBounds(100, "50%", "40%", "30%");
+              var x_s = swimming.addCategoryAxis("x", ["Edition", "Event_gender"]);
+              var y_s = swimming.addMeasureAxis("y", "c");
+              s = swimming.addSeries("Event_gender", dimple.plot.area);
+              s.interpolation = "step";
+
+              swimming.defaultColors = [
+                new dimple.color("#333333"),
+                new dimple.color("#E23D28"),
+                new dimple.color("#999999"),
+                new dimple.color("#BBBBBB"),
+                new dimple.color("#EEEEEE")];
+
+              swimming.draw();
+              x_s.titleShape.text("Olympic years");
+              y_s.titleShape.text("Disciplines");
+
+              svg_3.append("text")
+                .attr("x", 30)
+                .attr("y", 10)
+                .style("font-size", "0.8em")
+                .text("Athletics")
+
+              svg_3.append("text")
+                  .attr("x", 30)
+                  .attr("y", "49%")
+                  .style("font-size", "0.8em")
+                  .text("Swimming")
+
+              // column 2
+              // row 1
+              data_a = dimple.filterData(data, "Discipline", "canoe / kayak f");
+              var shooting = new dimple.chart(svg_3, data_a);
+              shooting.setBounds("55%", 30, "40%", "30%");
+              var x_sh = shooting.addCategoryAxis("x", ["Edition", "Event_gender"]);
+              var y_sh = shooting.addMeasureAxis("y", "c");
+              var sh = shooting.addSeries("Event_gender", dimple.plot.area);
+              sh.interpolation = "step";
+
+              shooting.defaultColors = [
+                new dimple.color("#333333"),
+                new dimple.color("#E23D28"),
+                new dimple.color("#999999"),
+                new dimple.color("#BBBBBB"),
+                new dimple.color("#EEEEEE")];
+              shooting.draw();
+              x_sh.titleShape.remove();
+              y_sh.titleShape.remove();
+
+              data_s = dimple.filterData(data, "Discipline", "rowing");
+
+              var rowing = new dimple.chart(svg_3, data_s);
+
+              rowing.setBounds("55%", "50%", "40%", "30%");
+              var x_r = rowing.addCategoryAxis("x", ["Edition", "Event_gender"]);
+              var y_r = rowing.addMeasureAxis("y", "c");
+              r = rowing.addSeries("Event_gender", dimple.plot.area);
+              r.interpolation = "step";
+
+
+              rowing.defaultColors = [
+              new dimple.color("#333333"),
+              new dimple.color("#E23D28"),
+              new dimple.color("#999999"),
+              new dimple.color("#BBBBBB"),
+              new dimple.color("#EEEEEE")];
+
+              rowing.draw();
+              x_r.titleShape.text("Olympic years");
+              y_r.titleShape.remove();
+
+              svg_3.append("text")
+                .attr("x", "50%")
+                .attr("y", 10)
+                .style("font-size", "0.8em")
+                .text("Canoe/Kayak - sprint")
+
+              svg_3.append("text")
+                .attr("x", "50%")
+                .attr("y", "49%")
+                .style("font-size", "0.8em")
+                .text("Rowing")
+              });
+          </script>
+        </div>
+      </div>
+    <!-- section 3 exlusives -->
+    <div class="section white" id="section3">
+      <p>
+      ‘He scents thy footsteps in the snow
+      Wheresoever thou dost go,
+      Thro’ the wintry hail and rain.
+      When wilt thou return again?
+      </p>
+      <ul class="nav">
+        <li><a href="#section1">1</a></li>
+        <li>&bull;</li>
+        <li><a href="#section2">2</a></li>
+        <li>&bull;</li>
+        <li>3</li>
+        <li>&bull;</li>
+        <li><a href="#section4">4</a></li>
+      </ul>
+      <div id="chartContainer04" class="chart">
+        <div class="chartTitle">Number of gender exclusive olympic disciplines (in which only women or men compete)</div>
+
+          <script type="text/javascript">
+            var svg_4 = dimple.newSvg("#chartContainer04", 1300, 500);
+            d3.tsv("/data/exclusives.tsv", function (data) {
+
+              var exclusives = new dimple.chart(svg_4, data);
+
+              exclusives.setBounds(100, 30, 1200, "60%");
+              var x = exclusives.addCategoryAxis("x", ["Edition", "Gender"]);
+              var y = exclusives.addMeasureAxis("y", "c");
+              exclusives.addSeries("Gender", dimple.plot.bar);
+              exclusives.addLegend(800, 10, 360, 20, "right");
+              exclusives.defaultColors = [
+                new dimple.color("#333333"),
+                new dimple.color("#E23D28"),
+                new dimple.color("#999999"),
+                new dimple.color("#BBBBBB"),
+                new dimple.color("#EEEEEE")];
+              exclusives.draw();
+              x.titleShape.text("Olympic years");
+              y.titleShape.text("Number of exclusive disciplines");
+            });
+          </script>
+        </div>
+      </div>
+    <!-- section 4 open and mixed -->
+    <div class="section white" id="section4">
+        <p>
+          MY Spectre around me night and day
+          Like a wild beast guards my way;
+          My Emanation far within
+          Weeps incessantly for my sin. section 1
+        </p>
+        <ul class="nav">
+          <li><a href="#section1">1</a></li>
+          <li>&bull;</li>
+          <li><a href="#section2">2</a></li>
+          <li>&bull;</li>
+          <li><a href="#section3">3</a></li>
+          <li>&bull;</li>
+          <li>4</li>
+        </ul>
+
+        <div id="chartContainer01" class="chart">
+          <div class="chartTitle">Open and mixed disciplines: number of gold medalists by gender in all open and mixed sporting events</div>
+          <script type="text/javascript">
+          var svg_1 = dimple.newSvg("#chartContainer01", 1300, 500);
+          var data
+          d3.tsv("/data/open.tsv", function (data) {
+            var open = new dimple.chart(svg_1, data);
+            open.setBounds(100, 30, 1200, 370);
+            var y = open.addCategoryAxis("y", "Sport");
+            var x = open.addCategoryAxis("x", "Edition");
+            /* chart styling */
+            y.fontFamily = 'Raleway', 'sans-serif';
+            x.fontFamily = 'Raleway', 'sans-serif';
+            y.fontSize = "13px";
+            /* chart styling - end */
+
+            var z = open.addMeasureAxis("z", "c");
+            z.overrideMin = -12;
+            z.overrideMax = 62;
+            open.addMeasureAxis("p", "c");
+            open.addSeries(["Sport", "Gender"], dimple.plot.pie);
+
+            var legend = open.addLegend(800, 10, 360, 20, "right");
+            legend.fontFamily = 'Raleway', 'sans-serif';
+            legend.fontSize = "15px";
+            open.defaultColors = [
+              new dimple.color("#333333"),
+              new dimple.color("#E23D28"),
+              new dimple.color("#999999"),
+              new dimple.color("#BBBBBB"),
+              new dimple.color("#EEEEEE")];
+              open.draw();
+              y.titleShape.remove();
+              x.titleShape.text("Olympic years");
+            });
+            </script>
+          </div>
+      </div>
+  </body>
+</html>

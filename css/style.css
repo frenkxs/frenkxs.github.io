@@ -1,0 +1,113 @@
+{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width:8000px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+/* Styling of charts */
+
+.dimple-axis{
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 20px !important;
+  padding-top: 10px !important;
+}
+rect.dimple-legend.dimple-legend-key{
+  height: 14px !important;
+  width: 18px  !important;
+}
+
+svg{
+  padding-top: 20px;
+}
+
+
+div.chartTitle{
+  font-weight: bold;
+  padding: 10px 0px 0px 30px;
+
+}
+
+/* Charts end */
+
+.section{
+    margin:0px;
+    bottom:0px;
+    width:2000px;
+    float:left;
+    height:100%;
+    text-shadow:1px 1px 2px #f0f0f0;
+}
+
+a{
+   text-decoration:none;
+}
+
+.section p{
+    width: 800px;
+    margin: 80px 0px 0px 30px;
+}
+
+div.chart{
+  width: 1500px;
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: whitesmoke;
+  margin-top: 50px;
+}
+
+span.header{
+    position:fixed;
+    left:30px;
+    top:10px;
+    color: #E23D28;
+}
+
+.header h2{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.white{
+    color:#000;
+}
+
+.section ul{
+    list-style:none;
+    margin:0px 0px 30px 750px;
+}
+.black ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.black ul li a{
+    display:block;
+    color:#f0f0f0;
+}
+.black ul li a:hover{
+    text-decoration:none;
+    color:#fff;
+}
+.white ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.white ul li a{
+    display:block;
+    color:#222;
+}
+.white ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
