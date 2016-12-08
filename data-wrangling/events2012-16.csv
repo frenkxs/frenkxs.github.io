@@ -1,0 +1,634 @@
+City,Edition,Sport,Discipline,Athlete,NOC,Gender,Event,Event_gender,Medal
+London,2012,Aquatics,Swimming,,,,50m Freestyle,W,Gold
+London,2012,Aquatics,Swimming,,,,100m Freestyle,W,Gold
+London,2012,Aquatics,Swimming,,,,200m Freestyle,W,Gold
+London,2012,Aquatics,Swimming,,,,400m Freestyle,W,Gold
+London,2012,Aquatics,Swimming,,,,800m Freestyle,W,Gold
+London,2012,Aquatics,Swimming,,,,1500m Freestyle,W,Gold
+London,2012,Aquatics,Swimming,,,,100m Backstroke,W,Gold
+London,2012,Aquatics,Swimming,,,,200m Backstroke,W,Gold
+London,2012,Aquatics,Swimming,,,,100m Breaststroke,W,Gold
+London,2012,Aquatics,Swimming,,,,200m Breaststroke,W,Gold
+London,2012,Aquatics,Swimming,,,,100m Butterfly,W,Gold
+London,2012,Aquatics,Swimming,,,,200m Butterfly,W,Gold
+London,2012,Aquatics,Swimming,,,,200m Individual medley,W,Gold
+London,2012,Aquatics,Swimming,,,,400m Individual medley,W,Gold
+London,2012,Aquatics,Swimming,,,,4x100m Freestyle Relay,W,Gold
+London,2012,Aquatics,Swimming,,,,4x200m Freestyle Relay,W,Gold
+London,2012,Aquatics,Swimming,,,,marathon 10km,W,Gold
+London,2012,Aquatics,Swimming,,,,marathon 10km,W,Gold
+London,2012,Aquatics,Diving,,,,10m Platform,W,Gold
+London,2012,Aquatics,Diving,,,,3m Springboard,W,Gold
+London,2012,Aquatics,Diving,,,,Synchronised 10m Platform,W,Gold
+London,2012,Aquatics,Diving,,,,Synchronised 3m Springboard,W,Gold
+London,2012,Aquatics,Synchronised S.,,,,Duets,W,Gold
+London,2012,Aquatics,Synchronised S.,,,,Teams,W,Gold
+London,2012,Aquatics,Water polo,,,,Water polo,W,Gold
+London,2012,Archery,Archery,,,,Individual,W,Gold
+London,2012,Archery,Archery,,,,Team,W,Gold
+London,2012,Athletics,Athletics,,,,Heptathlon,W,Gold
+London,2012,Athletics,Athletics,,,,High Jump,W,Gold
+London,2012,Athletics,Athletics,,,,Long Jump,W,Gold
+London,2012,Athletics,Athletics,,,,Pole Vault,W,Gold
+London,2012,Athletics,Athletics,,,,Triple Jump,W,Gold
+London,2012,Athletics,Athletics,,,,20km Walk,W,Gold
+London,2012,Athletics,Athletics,,,,Marathon,W,Gold
+London,2012,Athletics,Athletics,,,,Discus Throw,W,Gold
+London,2012,Athletics,Athletics,,,,Hammer Throw,W,Gold
+London,2012,Athletics,Athletics,,,,Javelin Throw,W,Gold
+London,2012,Athletics,Athletics,,,,Shot Put,W,Gold
+London,2012,Athletics,Athletics,,,,"10,000m",W,Gold
+London,2012,Athletics,Athletics,,,,100m,W,Gold
+London,2012,Athletics,Athletics,,,,100m Hurdles,W,Gold
+London,2012,Athletics,Athletics,,,,1500m,W,Gold
+London,2012,Athletics,Athletics,,,,200m,W,Gold
+London,2012,Athletics,Athletics,,,,3000m Steeplechase,W,Gold
+London,2012,Athletics,Athletics,,,,4 x 100m Relay,W,Gold
+London,2012,Athletics,Athletics,,,,4 x 400m Relay,W,Gold
+London,2012,Athletics,Athletics,,,,400m,W,Gold
+London,2012,Athletics,Athletics,,,,400m Hurdles,W,Gold
+London,2012,Athletics,Athletics,,,,5000m,W,Gold
+London,2012,Athletics,Athletics,,,,800m,W,Gold
+London,2012,Badminton,Badminton,,,,Doubles,W,Gold
+London,2012,Badminton,Badminton,,,,Singles,W,Gold
+London,2012,Basketball,Basketball,,,,Basketball,W,Gold
+London,2012,Boxing,Boxing,,,,Fly (48-51kg),W,Gold
+London,2012,Boxing,Boxing,,,,Light (57-60kg),W,Gold
+London,2012,Boxing,Boxing,,,,Middle (69-75kg),W,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak S,,,,Kayak (K1),W,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Double 500m,W,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Four 500m,W,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 200m,W,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 500m,W,Gold
+London,2012,Cycling,BMX,,,,BMX,W,Gold
+London,2012,Cycling,Mountain Bike,,,,Cross-country,W,Gold
+London,2012,Cycling,Cycling Road,,,,Individual Time Trial,W,Gold
+London,2012,Cycling,Cycling Road,,,,Road Race,W,Gold
+London,2012,Cycling,Cycling Track,,,,Keirin,W,Gold
+London,2012,Cycling,Cycling Track,,,,Omnium,W,Gold
+London,2012,Cycling,Cycling Track,,,,Sprint,W,Gold
+London,2012,Cycling,Cycling Track,,,,Team Pursuit,W,Gold
+London,2012,Cycling,Cycling Track,,,,Team Sprint,W,Gold
+London,2012,Fencing,Fencing,,,,Foil Individual,W,Gold
+London,2012,Fencing,Fencing,,,,Sabre Individual,W,Gold
+London,2012,Fencing,Fencing,,,,å_påå©e Individual,W,Gold
+London,2012,Fencing,Fencing,,,,Foil Team,W,Gold
+London,2012,Fencing,Fencing,,,,å_påå©e Team,W,Gold
+London,2012,Football,Football,,,,Football,W,Gold
+London,2012,Gymnastics,Artistic G.,,,,Balance Beam,W,Gold
+London,2012,Gymnastics,Artistic G.,,,,Floor Exercise,W,Gold
+London,2012,Gymnastics,Artistic G.,,,,Individual All-Around,W,Gold
+London,2012,Gymnastics,Artistic G.,,,,Team,W,Gold
+London,2012,Gymnastics,Artistic G.,,,,Uneven Bars,W,Gold
+London,2012,Gymnastics,Artistic G.,,,,Vault,W,Gold
+London,2012,Gymnastics,Rhythmic G.,,,,Group All-Around,W,Gold
+London,2012,Gymnastics,Rhythmic G.,,,,Individual All-Around,W,Gold
+London,2012,Gymnastics,Trampoline,,,,Trampoline,W,Gold
+London,2012,Handball,Handball,,,,Handball,W,Gold
+London,2012,Hockey,Hockey,,,,Hockey,W,Gold
+London,2012,Judo,Judo,,,,Women +78 kg,W,Gold
+London,2012,Judo,Judo,,,,Women -48 kg,W,Gold
+London,2012,Judo,Judo,,,,Women -52 kg,W,Gold
+London,2012,Judo,Judo,,,,Women -57 kg,W,Gold
+London,2012,Judo,Judo,,,,Women -63 kg,W,Gold
+London,2012,Judo,Judo,,,,Women -70 kg,W,Gold
+London,2012,Judo,Judo,,,,Women -78 kg,W,Gold
+London,2012,Modern Pentathlon,Modern Pentath.,,,,Individual,W,Gold
+London,2012,Rowing,Rowing,,,,Lightweight Double Sculls,W,Gold
+London,2012,Rowing,Rowing,,,,Double Sculls,W,Gold
+London,2012,Rowing,Rowing,,,,Eight,W,Gold
+London,2012,Rowing,Rowing,,,,Pair,W,Gold
+London,2012,Rowing,Rowing,,,,Quadruple Sculls,W,Gold
+London,2012,Rowing,Rowing,,,,Single Sculls,W,Gold
+London,2012,Sailing,Sailing,,,,470,W,Gold
+London,2012,Sailing,Sailing,,,,Elliott Women,W,Gold
+London,2012,Sailing,Sailing,,,,Laser Radial Women,W,Gold
+London,2012,Sailing,Sailing,,,,RS:X Women,W,Gold
+London,2012,Shooting,Shooting,,,,10m Air Pistol,W,Gold
+London,2012,Shooting,Shooting,,,,10m Air Rifle,W,Gold
+London,2012,Shooting,Shooting,,,,25m Pistol,W,Gold
+London,2012,Shooting,Shooting,,,,50m Rifle 3 Positions,W,Gold
+London,2012,Shooting,Shooting,,,,Skeet,W,Gold
+London,2012,Shooting,Shooting,,,,Trap,W,Gold
+London,2012,Table Tennis,Table Tennis,,,,Singles,W,Gold
+London,2012,Table Tennis,Table Tennis,,,,Team,W,Gold
+London,2012,Taekwondo,Taekwondo,,,,#ERROR!,W,Gold
+London,2012,Taekwondo,Taekwondo,,,,- 49 kg,W,Gold
+London,2012,Taekwondo,Taekwondo,,,,49 - 57 kg,W,Gold
+London,2012,Taekwondo,Taekwondo,,,,57 - 67 kg,W,Gold
+London,2012,Tennis,Tennis,,,,Doubles,W,Gold
+London,2012,Tennis,Tennis,,,,Singles,W,Gold
+London,2012,Triathlon,Triathlon,,,,Triathlon,W,Gold
+London,2012,Volleyball,Beach volley.,,,,Beach volley.,W,Gold
+London,2012,Volleyball,Volleyball,,,,Volleyball,W,Gold
+London,2012,Weightlifting,Weightlifting,,,,#ERROR!,W,Gold
+London,2012,Weightlifting,Weightlifting,,,,48kg,W,Gold
+London,2012,Weightlifting,Weightlifting,,,,53kg,W,Gold
+London,2012,Weightlifting,Weightlifting,,,,58kg,W,Gold
+London,2012,Weightlifting,Weightlifting,,,,63kg,W,Gold
+London,2012,Weightlifting,Weightlifting,,,,69kg,W,Gold
+London,2012,Weightlifting,Weightlifting,,,,75kg,W,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 48 kg,W,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 55 kg,W,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 63 kg,W,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 72 kg,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Backstroke,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Backstroke,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Breaststroke,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Breaststroke,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Butterfly,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Butterfly,W,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,10m Platform,W,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,3m Springboard,W,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,Synchronised 10m Platform,W,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,Synchronised 3m Springboard,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Freestyle,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Freestyle,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,4 x 100m Freestyle Relay,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,4 x 200m Freestyle Relay,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,400m Freestyle,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,50m Freestyle,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,800m Freestyle,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,marathon 10km,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Individual Medley,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,4 x 100m Medley Relay,W,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,400m Individual Medley,W,Gold
+Rio de Janeiro,2016,Aquatics,Synchronised S.,,,,Duets,W,Gold
+Rio de Janeiro,2016,Aquatics,Synchronised S.,,,,Teams,W,Gold
+Rio de Janeiro,2016,Aquatics,Water polo,,,,Water polo,W,Gold
+Rio de Janeiro,2016,Archery,Archery,,,,Individual,W,Gold
+Rio de Janeiro,2016,Archery,Archery,,,,Team,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Heptathlon,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,High Jump,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Long Jump,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Pole Vault,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Triple Jump,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,20km Walk,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Marathon,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Discus Throw,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Hammer Throw,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Javelin Throw,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Shot Put,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,"10,000m",W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,100m,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,100m Hurdles,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,1500m,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,200m,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,3000m Steeplechase,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,4 x 100m Relay,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,4 x 400m Relay,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,400m,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,400m Hurdles,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,5000m,W,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,800m,W,Gold
+Rio de Janeiro,2016,Badminton,Badminton,,,,Doubles,W,Gold
+Rio de Janeiro,2016,Badminton,Badminton,,,,Singles,W,Gold
+Rio de Janeiro,2016,Basketball,Basketball,,,,Basketball,W,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Fly (48-51kg),W,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Light (57-60kg),W,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Middle (69-75kg),W,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak S,,,,Kayak (K1) Women,W,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Double 500m,W,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Four 500m,W,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 200m,W,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 500m,W,Gold
+Rio de Janeiro,2016,Cycling,BMX,,,,BMX,W,Gold
+Rio de Janeiro,2016,Cycling,Mountain Bike,,,,Cross-country,W,Gold
+Rio de Janeiro,2016,Cycling,Cycling Road,,,,Individual Time Trial,W,Gold
+Rio de Janeiro,2016,Cycling,Cycling Road,,,,Road Race,W,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Keirin,W,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Omnium,W,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Sprint,W,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Team Pursuit,W,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Team Sprint,W,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,Foil Individual,W,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,Sabre Individual,W,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,å_påå©e Individual,W,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,Sabre Team,W,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,å_påå©e Team,W,Gold
+Rio de Janeiro,2016,Football,Football,,,,Football,W,Gold
+Rio de Janeiro,2016,Golf,Golf,,,,Individual Stroke Play,W,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Balance Beam,W,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Floor Exercise,W,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Individual All-Around,W,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Team,W,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Uneven Bars,W,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Vault,W,Gold
+Rio de Janeiro,2016,Gymnastics,Rhythmic G.,,,,Group All-Around,W,Gold
+Rio de Janeiro,2016,Gymnastics,Rhythmic G.,,,,Individual All-Around,W,Gold
+Rio de Janeiro,2016,Gymnastics,Trampoline,,,,Trampoline,W,Gold
+Rio de Janeiro,2016,Handball,Handball,,,,Handball,W,Gold
+Rio de Janeiro,2016,Hockey,Hockey,,,,Hockey,W,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Women +78 kg,W,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Women -48 kg,W,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Women -52 kg,W,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Women -57 kg,W,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Women -63 kg,W,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Women -70 kg,W,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Women -78 kg,W,Gold
+Rio de Janeiro,2016,Modern Pentathlon,Modern Pentath.,,,,Individual,W,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Lightweight Double Sculls,W,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Double Sculls,W,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Eight,W,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Pair,W,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Quadruple Sculls,W,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Single Sculls,W,Gold
+Rio de Janeiro,2016,Rugby Sevens,Rugby Sevens,,,,Rugby Sevens,W,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,470,W,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,49er FX,W,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,Laser Radial,W,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,RS:X,W,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,10m Air Pistol,W,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,10m Air Rifle,W,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,25m Pistol,W,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,50m Rifle 3 Positions,W,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,Skeet,W,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,Trap,W,Gold
+Rio de Janeiro,2016,Table Tennis,Table Tennis,,,,Singles,W,Gold
+Rio de Janeiro,2016,Table Tennis,Table Tennis,,,,Team,W,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,#ERROR!,W,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,- 49 kg,W,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,49 - 57 kg,W,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,57 - 67 kg,W,Gold
+Rio de Janeiro,2016,Tennis,Tennis,,,,Doubles,W,Gold
+Rio de Janeiro,2016,Tennis,Tennis,,,,Singles,W,Gold
+Rio de Janeiro,2016,Triathlon,Triathlon,,,,Triathlon,W,Gold
+Rio de Janeiro,2016,Volleyball,Beach volley.,,,,Beach volley.,W,Gold
+Rio de Janeiro,2016,Volleyball,Volleyball,,,,Volleyball,W,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,#ERROR!,W,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,48kg,W,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,53kg,W,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,58kg,W,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,63kg,W,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,69kg,W,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,75kg,W,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 48 kg,W,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 53 kg,W,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 58 kg,W,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 63 kg,W,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 69 kg,W,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 75 kg,W,Gold
+London,2012,Aquatics,Swimming,,,,50m Freestyle,M,Gold
+London,2012,Aquatics,Swimming,,,,100m Freestyle,M,Gold
+London,2012,Aquatics,Swimming,,,,200m Freestyle,M,Gold
+London,2012,Aquatics,Swimming,,,,400m Freestyle,M,Gold
+London,2012,Aquatics,Swimming,,,,800m Freestyle,M,Gold
+London,2012,Aquatics,Swimming,,,,1500m Freestyle,M,Gold
+London,2012,Aquatics,Swimming,,,,100m Backstroke,M,Gold
+London,2012,Aquatics,Swimming,,,,200m Backstroke,M,Gold
+London,2012,Aquatics,Swimming,,,,100m Breaststroke,M,Gold
+London,2012,Aquatics,Swimming,,,,200m Breaststroke,M,Gold
+London,2012,Aquatics,Swimming,,,,100m Butterfly,M,Gold
+London,2012,Aquatics,Swimming,,,,200m Butterfly,M,Gold
+London,2012,Aquatics,Swimming,,,,200m Individual medley,M,Gold
+London,2012,Aquatics,Swimming,,,,400m Individual medley,M,Gold
+London,2012,Aquatics,Swimming,,,,4x100m Freestyle Relay,M,Gold
+London,2012,Aquatics,Swimming,,,,4x200m Freestyle Relay,M,Gold
+London,2012,Aquatics,Swimming,,,,4x100m Medley Relay,M,Gold
+London,2012,Aquatics,Swimming,,,,4x100m Medley Relay,M,Gold
+London,2012,Aquatics,Diving,,,,10m Platform,M,Gold
+London,2012,Aquatics,Diving,,,,3m Springboard,M,Gold
+London,2012,Aquatics,Diving,,,,Synchronised 10m Platform,M,Gold
+London,2012,Aquatics,Diving,,,,Synchronised 3m Springboard,M,Gold
+London,2012,Aquatics,Water polo,,,,Water polo,M,Gold
+London,2012,Archery,Archery,,,,Individual,M,Gold
+London,2012,Archery,Archery,,,,Team,M,Gold
+London,2012,Athletics,Athletics,,,,Decathlon,M,Gold
+London,2012,Athletics,Athletics,,,,High Jump,M,Gold
+London,2012,Athletics,Athletics,,,,Long Jump,M,Gold
+London,2012,Athletics,Athletics,,,,Pole Vault,M,Gold
+London,2012,Athletics,Athletics,,,,Triple Jump,M,Gold
+London,2012,Athletics,Athletics,,,,20km Walk,M,Gold
+London,2012,Athletics,Athletics,,,,50km Walk,M,Gold
+London,2012,Athletics,Athletics,,,,Marathon,M,Gold
+London,2012,Athletics,Athletics,,,,Discus Throw,M,Gold
+London,2012,Athletics,Athletics,,,,Hammer Throw,M,Gold
+London,2012,Athletics,Athletics,,,,Javelin Throw,M,Gold
+London,2012,Athletics,Athletics,,,,Shot Put,M,Gold
+London,2012,Athletics,Athletics,,,,"10,000m",M,Gold
+London,2012,Athletics,Athletics,,,,100m,M,Gold
+London,2012,Athletics,Athletics,,,,110m Hurdles,M,Gold
+London,2012,Athletics,Athletics,,,,1500m,M,Gold
+London,2012,Athletics,Athletics,,,,200m,M,Gold
+London,2012,Athletics,Athletics,,,,3000m Steeplechase,M,Gold
+London,2012,Athletics,Athletics,,,,4 x 100m Relay,M,Gold
+London,2012,Athletics,Athletics,,,,4 x 400m Relay,M,Gold
+London,2012,Athletics,Athletics,,,,400m,M,Gold
+London,2012,Athletics,Athletics,,,,400m Hurdles,M,Gold
+London,2012,Athletics,Athletics,,,,5000m,M,Gold
+London,2012,Athletics,Athletics,,,,800m,M,Gold
+London,2012,Badminton,Badminton,,,,Doubles,M,Gold
+London,2012,Badminton,Badminton,,,,Singles,M,Gold
+London,2012,Basketball,Basketball,,,,Basketball,M,Gold
+London,2012,Boxing,Boxing,,,,Bantam (56kg),M,Gold
+London,2012,Boxing,Boxing,,,,Fly (52kg),M,Gold
+London,2012,Boxing,Boxing,,,,Heavy (91kg),M,Gold
+London,2012,Boxing,Boxing,,,,Light (60kg),M,Gold
+London,2012,Boxing,Boxing,,,,Light Fly (46-49kg),M,Gold
+London,2012,Boxing,Boxing,,,,Light Heavy (81kg),M,Gold
+London,2012,Boxing,Boxing,,,,Light Welter (64kg),M,Gold
+London,2012,Boxing,Boxing,,,,Middle (75kg),M,Gold
+London,2012,Boxing,Boxing,,,,Super Heavy (+91kg),M,Gold
+London,2012,Boxing,Boxing,,,,Welter (69kg),M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak S,,,,Canoe Double (C2),M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak S,,,,Canoe Single (C1),M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak S,,,,Kayak (K1),M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Canoe Double 1000m,M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Canoe Single 1000m,M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Canoe Single 200m,M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Double 1000m,M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Double 200m,M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Four 1000m,M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 1000m,M,Gold
+London,2012,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 200m,M,Gold
+London,2012,Cycling,BMX,,,,BMX,M,Gold
+London,2012,Cycling,Mountain Bike,,,,Cross-country,M,Gold
+London,2012,Cycling,Cycling Road,,,,Individual Time Trial,M,Gold
+London,2012,Cycling,Cycling Road,,,,Road Race,M,Gold
+London,2012,Cycling,Cycling Track,,,,Keirin,M,Gold
+London,2012,Cycling,Cycling Track,,,,Omnium,M,Gold
+London,2012,Cycling,Cycling Track,,,,Sprint,M,Gold
+London,2012,Cycling,Cycling Track,,,,Team Pursuit,M,Gold
+London,2012,Cycling,Cycling Track,,,,Team Sprint,M,Gold
+London,2012,Fencing,Fencing,,,,Foil Individual,M,Gold
+London,2012,Fencing,Fencing,,,,Sabre Individual,M,Gold
+London,2012,Fencing,Fencing,,,,å_påå©e Individual,M,Gold
+London,2012,Fencing,Fencing,,,,Foil Team,M,Gold
+London,2012,Fencing,Fencing,,,,Sabre Team,M,Gold
+London,2012,Football,Football,,,,Football,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Floor Exercise,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Horizontal Bar,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Individual All-Around,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Parallel Bars,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Pommel Horse,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Rings,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Team,M,Gold
+London,2012,Gymnastics,Artistic G.,,,,Vault,M,Gold
+London,2012,Gymnastics,Trampoline,,,,Trampoline,M,Gold
+London,2012,Handball,Handball,,,,Handball,M,Gold
+London,2012,Hockey,Hockey,,,,Hockey,M,Gold
+London,2012,Judo,Judo,,,,Men +100 kg,M,Gold
+London,2012,Judo,Judo,,,,Men -100 kg,M,Gold
+London,2012,Judo,Judo,,,,Men -60 kg,M,Gold
+London,2012,Judo,Judo,,,,Men -66 kg,M,Gold
+London,2012,Judo,Judo,,,,Men -73 kg,M,Gold
+London,2012,Judo,Judo,,,,Men -81 kg,M,Gold
+London,2012,Judo,Judo,,,,Men -90 kg,M,Gold
+London,2012,Modern Pentathlon,Modern Pentath.,,,,Individual,M,Gold
+London,2012,Rowing,Rowing,,,,Lightweight Double Sculls,M,Gold
+London,2012,Rowing,Rowing,,,,Lightweight Four,M,Gold
+London,2012,Rowing,Rowing,,,,Double Sculls,M,Gold
+London,2012,Rowing,Rowing,,,,Eight,M,Gold
+London,2012,Rowing,Rowing,,,,Four,M,Gold
+London,2012,Rowing,Rowing,,,,Pair,M,Gold
+London,2012,Rowing,Rowing,,,,Quadruple Sculls,M,Gold
+London,2012,Rowing,Rowing,,,,Single Sculls,M,Gold
+London,2012,Sailing,Sailing,,,,470,M,Gold
+London,2012,Sailing,Sailing,,,,49er,M,Gold
+London,2012,Sailing,Sailing,,,,Finn,M,Gold
+London,2012,Sailing,Sailing,,,,Laser,M,Gold
+London,2012,Sailing,Sailing,,,,RS:X,M,Gold
+London,2012,Sailing,Sailing,,,,Star,M,Gold
+London,2012,Shooting,Shooting,,,,10m Air Pistol,M,Gold
+London,2012,Shooting,Shooting,,,,10m Air Rifle,M,Gold
+London,2012,Shooting,Shooting,,,,25m Rapid Fire Pistol,M,Gold
+London,2012,Shooting,Shooting,,,,50m Pistol,M,Gold
+London,2012,Shooting,Shooting,,,,50m Rifle 3 Positions,M,Gold
+London,2012,Shooting,Shooting,,,,50m Rifle Prone,M,Gold
+London,2012,Shooting,Shooting,,,,Double Trap,M,Gold
+London,2012,Shooting,Shooting,,,,Skeet,M,Gold
+London,2012,Shooting,Shooting,,,,Trap,M,Gold
+London,2012,Table Tennis,Table Tennis,,,,Singles,M,Gold
+London,2012,Table Tennis,Table Tennis,,,,Team,M,Gold
+London,2012,Taekwondo,Taekwondo,,,,#ERROR!,M,Gold
+London,2012,Taekwondo,Taekwondo,,,,- 58 kg,M,Gold
+London,2012,Taekwondo,Taekwondo,,,,58 - 68 kg,M,Gold
+London,2012,Taekwondo,Taekwondo,,,,68 - 80 kg,M,Gold
+London,2012,Tennis,Tennis,,,,Doubles,M,Gold
+London,2012,Tennis,Tennis,,,,Singles,M,Gold
+London,2012,Triathlon,Triathlon,,,,Triathlon,M,Gold
+London,2012,Volleyball,Beach volley.,,,,Beach volley.,M,Gold
+London,2012,Volleyball,Volleyball,,,,Volleyball,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,#ERROR!,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,105kg,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,56kg,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,62kg,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,69kg,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,77kg,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,85kg,M,Gold
+London,2012,Weightlifting,Weightlifting,,,,94kg,M,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 55 kg,M,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 60 kg,M,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 66 kg,M,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 74 kg,M,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 84 kg,M,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 96 kg,M,Gold
+London,2012,Wrestling,Wrestling Free.,,,,Freestyle 120 kg,M,Gold
+London,2012,Wrestling,Wrestling Gre-R,,,,Greco-Roman 55 kg,M,Gold
+London,2012,Wrestling,Wrestling Gre-R,,,,Greco-Roman 60 kg,M,Gold
+London,2012,Wrestling,Wrestling Gre-R,,,,Greco-Roman 66 kg,M,Gold
+London,2012,Wrestling,Wrestling Gre-R,,,,Greco-Roman 74 kg,M,Gold
+London,2012,Wrestling,Wrestling Gre-R,,,,Greco-Roman 84 kg,M,Gold
+London,2012,Wrestling,Wrestling Gre-R,,,,Greco-Roman 96 kg,M,Gold
+London,2012,Wrestling,Wrestling Gre-R,,,,Greco-Roman 120 kg,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Backstroke,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Backstroke,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Breaststroke,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Breaststroke,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Butterfly,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Butterfly,M,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,10m Platform,M,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,3m Springboard,M,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,Synchronised 10m Platform,M,Gold
+Rio de Janeiro,2016,Aquatics,Diving,,,,Synchronised 3m Springboard,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,100m Freestyle,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,1500m Freestyle,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Freestyle,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,4 x 100m Freestyle Relay,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,4 x 200m Freestyle Relay,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,400m Freestyle,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,50m Freestyle,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,marathon 10km,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,200m Individual Medley,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,4 x 100m Medley Relay,M,Gold
+Rio de Janeiro,2016,Aquatics,Swimming,,,,400m Individual Medley,M,Gold
+Rio de Janeiro,2016,Aquatics,Water polo,,,,Water polo,M,Gold
+Rio de Janeiro,2016,Archery,Archery,,,,Individual,M,Gold
+Rio de Janeiro,2016,Archery,Archery,,,,Team,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Decathlon,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,High Jump,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Long Jump,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Pole Vault,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Triple Jump,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,20km Walk,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,50km Walk,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Marathon,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Discus Throw,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Hammer Throw,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Javelin Throw,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,Shot Put,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,"10,000m",M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,100m,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,110m Hurdles,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,1500m,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,200m,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,3000m Steeplechase,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,4 x 100m Relay,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,4 x 400m Relay,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,400m,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,400m Hurdles,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,5000m,M,Gold
+Rio de Janeiro,2016,Athletics,Athletics,,,,800m,M,Gold
+Rio de Janeiro,2016,Badminton,Badminton,,,,Doubles,M,Gold
+Rio de Janeiro,2016,Badminton,Badminton,,,,Singles,M,Gold
+Rio de Janeiro,2016,Basketball,Basketball,,,,Basketball,M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Bantam (56kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Fly (52kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Heavy (91kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Light (60kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Light Fly (46-49kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Light Heavy (81kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Light Welter (64kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Middle (75kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Super Heavy (+91kg),M,Gold
+Rio de Janeiro,2016,Boxing,Boxing,,,,Welter (69kg),M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak S,,,,Canoe Double (C2),M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak S,,,,Canoe Single (C1),M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak S,,,,Kayak (K1) Men,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Canoe Double 1000m,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Canoe Single 1000m,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Canoe Single 200m,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Double 1000m,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Double 200m,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Four 1000m,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 1000m,M,Gold
+Rio de Janeiro,2016,Canoe / Kayak,Canoe / Kayak F,,,,Kayak Single 200m,M,Gold
+Rio de Janeiro,2016,Cycling,BMX,,,,BMX,M,Gold
+Rio de Janeiro,2016,Cycling,Mountain Bike,,,,Cross-country,M,Gold
+Rio de Janeiro,2016,Cycling,Cycling Road,,,,Individual Time Trial,M,Gold
+Rio de Janeiro,2016,Cycling,Cycling Road,,,,Road Race,M,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Keirin,M,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Omnium,M,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Sprint,M,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Team Pursuit,M,Gold
+Rio de Janeiro,2016,Cycling,Cycling Track,,,,Team Sprint,M,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,Foil Individual,M,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,Sabre Individual,M,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,å_påå©e Individual,M,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,Foil Team,M,Gold
+Rio de Janeiro,2016,Fencing,Fencing,,,,å_påå©e Team,M,Gold
+Rio de Janeiro,2016,Football,Football,,,,Football,M,Gold
+Rio de Janeiro,2016,Golf,Golf,,,,Individual Stroke Play,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Floor Exercise,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Horizontal Bar,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Individual All-Around,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Parallel Bars,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Pommel Horse,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Rings,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Team,M,Gold
+Rio de Janeiro,2016,Gymnastics,Artistic G.,,,,Vault,M,Gold
+Rio de Janeiro,2016,Gymnastics,Trampoline,,,,Trampoline,M,Gold
+Rio de Janeiro,2016,Handball,Handball,,,,Handball,M,Gold
+Rio de Janeiro,2016,Hockey,Hockey,,,,Hockey,M,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Men +100 kg,M,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Men -100 kg,M,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Men -60 kg,M,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Men -66 kg,M,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Men -73 kg,M,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Men -81 kg,M,Gold
+Rio de Janeiro,2016,Judo,Judo,,,,Men -90 kg,M,Gold
+Rio de Janeiro,2016,Modern Pentathlon,Modern Pentath.,,,,Individual,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Lightweight Double Sculls,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Lightweight Four,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Double Sculls,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Eight,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Four,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Pair,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Quadruple Sculls,M,Gold
+Rio de Janeiro,2016,Rowing,Rowing,,,,Single Sculls,M,Gold
+Rio de Janeiro,2016,Rugby Sevens,Rugby Sevens,,,,Rugby Sevens,M,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,470,M,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,49er,M,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,Finn,M,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,Laser,M,Gold
+Rio de Janeiro,2016,Sailing,Sailing,,,,RS:X,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,10m Air Pistol,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,10m Air Rifle,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,25m Rapid Fire Pistol,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,50m Pistol,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,50m Rifle 3 Positions,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,50m Rifle Prone,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,Double Trap,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,Skeet,M,Gold
+Rio de Janeiro,2016,Shooting,Shooting,,,,Trap,M,Gold
+Rio de Janeiro,2016,Table Tennis,Table Tennis,,,,Singles,M,Gold
+Rio de Janeiro,2016,Table Tennis,Table Tennis,,,,Team,M,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,#ERROR!,M,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,- 58 kg,M,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,58 - 68 kg,M,Gold
+Rio de Janeiro,2016,Taekwondo,Taekwondo,,,,68 - 80 kg,M,Gold
+Rio de Janeiro,2016,Tennis,Tennis,,,,Doubles,M,Gold
+Rio de Janeiro,2016,Tennis,Tennis,,,,Singles,M,Gold
+Rio de Janeiro,2016,Triathlon,Triathlon,,,,Triathlon,M,Gold
+Rio de Janeiro,2016,Volleyball,Beach volley.,,,,Beach volley.,M,Gold
+Rio de Janeiro,2016,Volleyball,Volleyball,,,,Volleyball,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,#ERROR!,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,105kg,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,56kg,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,62kg,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,69kg,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,77kg,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,85kg,M,Gold
+Rio de Janeiro,2016,Weightlifting,Weightlifting,,,,94kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 125 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 57 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 65 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 74 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 86 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Free.,,,,Freestyle 97 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Gre-R,,,,Greco-Roman 130 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Gre-R,,,,Greco-Roman 59 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Gre-R,,,,Greco-Roman 66 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Gre-R,,,,Greco-Roman 75 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Gre-R,,,,Greco-Roman 85 kg,M,Gold
+Rio de Janeiro,2016,Wrestling,Wrestling Gre-R,,,,Greco-Roman 98 kg,M,Gold
+London,2012,Badminton,Badminton,Zhao Yunlei,CHN,Women,Mixed Doubles,X,Gold
+London,2012,Badminton,Badminton,Zhang Nan,CHN,Men,Mixed Doubles,X,Gold
+London,2012,Equestrian,Dressage,Charlotte Dujardin,GBR,Women,Dressage Individual,X,Gold
+London,2012,Equestrian,Dressage,Charlotte Dujardin,GBR,Women,Dressage Team,X,Gold
+London,2012,Equestrian,Dressage,Carl Hester,GBR,Men,Dressage Team,X,Gold
+London,2012,Equestrian,Dressage,Laura Tomlinson,GBR,Women,Dressage Team,X,Gold
+London,2012,Equestrian,Eventing,Michael Jung,GER,Men,Eventing Individual,X,Gold
+London,2012,Equestrian,Eventing,Michael Jung,GER,Men,Eventing Team,X,Gold
+London,2012,Equestrian,Eventing,Sandra Auffarth,GER,Women,Eventing Team,X,Gold
+London,2012,Equestrian,Eventing,Ingrid Klimke,GER,Women,Eventing Team,X,Gold
+London,2012,Equestrian,Eventing,Dirk Schrade_,GER,Men,Eventing Team,X,Gold
+London,2012,Equestrian,Eventing,Peter Thomsen,GER,Men,Eventing Team,X,Gold
+London,2012,Equestrian,Jumping,Steve Guerdat,SUI,Men,Jumping Individual,X,Gold
+London,2012,Equestrian,Jumping,Nick Skelton,GBR,Men,Jumping Team,X,Gold
+London,2012,Equestrian,Jumping,Ben Maher,GBR,Men,Jumping Team,X,Gold
+London,2012,Equestrian,Jumping,Peter Charles_,GBR,Men,Jumping Team,X,Gold
+London,2012,Equestrian,Jumping,Scott Brash,GBR,Men,Jumping Team,X,Gold
+London,2012,Tennis,Tennis,Max Mirnyi,BLR,Men,Mixed Doubles,X,Gold
+London,2012,Tennis,Tennis,Victoria Azarenka,BLR,Women,Mixed Doubles,X,Gold
+Rio de Janeiro,2016,Badminton,Badminton,Liliyana Natsir,INA,Women,Mixed Doubles,X,Gold
+Rio de Janeiro,2016,Badminton,Badminton,Tontowi Ahmad,INA,Men,Mixed Doubles,X,Gold
+Rio de Janeiro,2016,Equestrian,Dressage,Charlotte Dujardin,GBR,Women,Dressage Individual,X,Gold
+Rio de Janeiro,2016,Equestrian,Dressage,S_nke Rothenberger_,GER,Women,Dressage Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Dressage,Dorothee Schneider,GER,Women,Dressage Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Dressage,Kristina Br_ring-Sprehe_,GER,Women,Dressage Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Dressage,Isabell Werth,GER,Women,Dressage Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Eventing,Michael Jung,GER,Men,Eventing Individual,X,Gold
+Rio de Janeiro,2016,Equestrian,Eventing,Karim Laghouag_,FRA,Men,Eventing Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Eventing,Thibaut Vallette_,FRA,Men,Eventing Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Eventing,Mathieu Lemoine,FRA,Men,Eventing Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Eventing,Astier Nicolas_,FRA,Men,Eventing Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Jumping,Nick Skelton,GBR,Men,Jumping Individual,X,Gold
+Rio de Janeiro,2016,Equestrian,Jumping,Philippe Rozier,FRA,Men,Jumping Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Jumping,Kevin Staut_,FRA,Men,Jumping Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Jumping,Roger-Yves Bost_,FRA,Men,Jumping Team,X,Gold
+Rio de Janeiro,2016,Equestrian,Jumping,P_n_lope Leprevost_,FRA,Women,Jumping Team,X,Gold
+Rio de Janeiro,2016,Sailing,Sailing,Santiago Lange,ARG,Men,Nacra 17 Mixed,X,Gold
+Rio de Janeiro,2016,Sailing,Sailing,Cecilia Carranza Saroli,ARG,Women,Nacra 17 Mixed,X,Gold
+Rio de Janeiro,2016,Tennis,Tennis,Bethanie Mattek-Sands,USA,Women,Mixed Doubles,X,Gold
+Rio de Janeiro,2016,Tennis,Tennis,Jack Sock,USA,Men,Mixed Doubles,X,Gold
