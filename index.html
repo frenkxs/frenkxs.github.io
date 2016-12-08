@@ -275,19 +275,18 @@
             open.setBounds(100, 30, 1200, 370);
             var y = open.addCategoryAxis("y", "Sport");
             var x = open.addCategoryAxis("x", "Edition");
+            var z = open.addMeasureAxis("z", "c");
+            open.addMeasureAxis("p", "c");
+            open.addSeries(["Sport", "Gender"], dimple.plot.pie);
+            var legend = open.addLegend(800, 10, 360, 20, "right");
+
             /* chart styling */
             y.fontFamily = 'Raleway', 'sans-serif';
             x.fontFamily = 'Raleway', 'sans-serif';
             y.fontSize = "13px";
-            /* chart styling - end */
-
-            var z = open.addMeasureAxis("z", "c");
             z.overrideMin = -12;
             z.overrideMax = 62;
-            open.addMeasureAxis("p", "c");
-            open.addSeries(["Sport", "Gender"], dimple.plot.pie);
 
-            var legend = open.addLegend(800, 10, 360, 20, "right");
             legend.fontFamily = 'Raleway', 'sans-serif';
             legend.fontSize = "15px";
             open.defaultColors = [
@@ -296,6 +295,8 @@
               new dimple.color("#999999"),
               new dimple.color("#BBBBBB"),
               new dimple.color("#EEEEEE")];
+
+            /* chart styling - end */
               open.draw();
               y.titleShape.remove();
               x.titleShape.text("Olympic years");
