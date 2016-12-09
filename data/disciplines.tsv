@@ -20,16 +20,16 @@
 "1900"	"football"	"men"	1
 "1900"	"golf"	"men"	1
 "1900"	"golf"	"women"	1
-"1900"	"jumping"	"open/mixed"	3
+"1900"	"jumping"	"mixed"	3
 "1900"	"polo"	"men"	1
 "1900"	"rowing"	"men"	4
 "1900"	"rugby"	"men"	1
-"1900"	"sailing"	"open/mixed"	4
+"1900"	"sailing"	"mixed"	4
 "1900"	"shooting"	"men"	9
 "1900"	"swimming"	"men"	7
 "1900"	"tennis"	"men"	2
 "1900"	"tennis"	"women"	1
-"1900"	"tennis"	"open/mixed"	1
+"1900"	"tennis"	"mixed"	1
 "1900"	"tug of war"	"men"	1
 "1900"	"water polo"	"men"	1
 "1904"	"archery"	"men"	3
@@ -60,7 +60,7 @@
 "1908"	"fencing"	"men"	4
 "1908"	"figure skating"	"men"	2
 "1908"	"figure skating"	"women"	1
-"1908"	"figure skating"	"open/mixed"	1
+"1908"	"figure skating"	"mixed"	1
 "1908"	"football"	"men"	1
 "1908"	"hockey"	"men"	1
 "1908"	"jeu de paume"	"men"	1
@@ -69,7 +69,7 @@
 "1908"	"rackets"	"men"	2
 "1908"	"rowing"	"men"	4
 "1908"	"rugby"	"men"	1
-"1908"	"sailing"	"open/mixed"	4
+"1908"	"sailing"	"mixed"	4
 "1908"	"shooting"	"men"	15
 "1908"	"swimming"	"men"	6
 "1908"	"tennis"	"men"	4
@@ -84,20 +84,20 @@
 "1912"	"cycling road"	"men"	2
 "1912"	"diving"	"men"	3
 "1912"	"diving"	"women"	1
-"1912"	"dressage"	"open/mixed"	1
-"1912"	"eventing"	"open/mixed"	2
+"1912"	"dressage"	"mixed"	1
+"1912"	"eventing"	"mixed"	2
 "1912"	"fencing"	"men"	5
 "1912"	"football"	"men"	1
-"1912"	"jumping"	"open/mixed"	2
+"1912"	"jumping"	"mixed"	2
 "1912"	"modern pentath."	"men"	1
 "1912"	"rowing"	"men"	4
-"1912"	"sailing"	"open/mixed"	4
+"1912"	"sailing"	"mixed"	4
 "1912"	"shooting"	"men"	18
 "1912"	"swimming"	"men"	7
 "1912"	"swimming"	"women"	2
 "1912"	"tennis"	"men"	4
 "1912"	"tennis"	"women"	2
-"1912"	"tennis"	"open/mixed"	2
+"1912"	"tennis"	"mixed"	2
 "1912"	"tug of war"	"men"	1
 "1912"	"water polo"	"men"	1
 "1912"	"wrestling gre-r"	"men"	4
@@ -109,30 +109,30 @@
 "1920"	"cycling track"	"men"	4
 "1920"	"diving"	"men"	3
 "1920"	"diving"	"women"	2
-"1920"	"dressage"	"open/mixed"	1
-"1920"	"eventing"	"open/mixed"	1
+"1920"	"dressage"	"mixed"	1
+"1920"	"eventing"	"mixed"	1
 "1920"	"fencing"	"men"	6
 "1920"	"figure skating"	"men"	1
 "1920"	"figure skating"	"women"	1
-"1920"	"figure skating"	"open/mixed"	1
+"1920"	"figure skating"	"mixed"	1
 "1920"	"football"	"men"	1
 "1920"	"hockey"	"men"	1
 "1920"	"ice hockey"	"men"	1
-"1920"	"jumping"	"open/mixed"	2
+"1920"	"jumping"	"mixed"	2
 "1920"	"modern pentath."	"men"	1
 "1920"	"polo"	"men"	1
 "1920"	"rowing"	"men"	5
 "1920"	"rugby"	"men"	1
 "1920"	"sailing"	"men"	2
-"1920"	"sailing"	"open/mixed"	12
+"1920"	"sailing"	"mixed"	12
 "1920"	"shooting"	"men"	21
 "1920"	"swimming"	"men"	7
 "1920"	"swimming"	"women"	3
 "1920"	"tennis"	"men"	2
 "1920"	"tennis"	"women"	2
-"1920"	"tennis"	"open/mixed"	1
+"1920"	"tennis"	"mixed"	1
 "1920"	"tug of war"	"men"	1
-"1920"	"vaulting"	"open/mixed"	2
+"1920"	"vaulting"	"mixed"	2
 "1920"	"water polo"	"men"	1
 "1920"	"weightlifting"	"men"	5
 "1920"	"wrestling free."	"men"	5
@@ -144,23 +144,23 @@
 "1924"	"cycling track"	"men"	4
 "1924"	"diving"	"men"	3
 "1924"	"diving"	"women"	2
-"1924"	"dressage"	"open/mixed"	1
-"1924"	"eventing"	"open/mixed"	2
+"1924"	"dressage"	"mixed"	1
+"1924"	"eventing"	"mixed"	2
 "1924"	"fencing"	"men"	6
 "1924"	"fencing"	"women"	1
 "1924"	"football"	"men"	1
-"1924"	"jumping"	"open/mixed"	2
+"1924"	"jumping"	"mixed"	2
 "1924"	"modern pentath."	"men"	1
 "1924"	"polo"	"men"	1
 "1924"	"rowing"	"men"	7
 "1924"	"rugby"	"men"	1
-"1924"	"sailing"	"open/mixed"	3
+"1924"	"sailing"	"mixed"	3
 "1924"	"shooting"	"men"	10
 "1924"	"swimming"	"men"	6
 "1924"	"swimming"	"women"	5
 "1924"	"tennis"	"men"	2
 "1924"	"tennis"	"women"	2
-"1924"	"tennis"	"open/mixed"	1
+"1924"	"tennis"	"mixed"	1
 "1924"	"water polo"	"men"	1
 "1924"	"weightlifting"	"men"	5
 "1924"	"wrestling free."	"men"	7
@@ -174,16 +174,16 @@
 "1928"	"cycling track"	"men"	5
 "1928"	"diving"	"men"	2
 "1928"	"diving"	"women"	2
-"1928"	"dressage"	"open/mixed"	2
-"1928"	"eventing"	"open/mixed"	2
+"1928"	"dressage"	"mixed"	2
+"1928"	"eventing"	"mixed"	2
 "1928"	"fencing"	"men"	5
 "1928"	"fencing"	"women"	1
 "1928"	"football"	"men"	1
 "1928"	"hockey"	"men"	1
-"1928"	"jumping"	"open/mixed"	2
+"1928"	"jumping"	"mixed"	2
 "1928"	"modern pentath."	"men"	1
 "1928"	"rowing"	"men"	7
-"1928"	"sailing"	"open/mixed"	3
+"1928"	"sailing"	"mixed"	3
 "1928"	"swimming"	"men"	6
 "1928"	"swimming"	"women"	5
 "1928"	"water polo"	"men"	1
@@ -198,15 +198,15 @@
 "1932"	"cycling track"	"men"	4
 "1932"	"diving"	"men"	2
 "1932"	"diving"	"women"	2
-"1932"	"dressage"	"open/mixed"	2
-"1932"	"eventing"	"open/mixed"	2
+"1932"	"dressage"	"mixed"	2
+"1932"	"eventing"	"mixed"	2
 "1932"	"fencing"	"men"	6
 "1932"	"fencing"	"women"	1
 "1932"	"hockey"	"men"	1
-"1932"	"jumping"	"open/mixed"	1
+"1932"	"jumping"	"mixed"	1
 "1932"	"modern pentath."	"men"	1
 "1932"	"rowing"	"men"	7
-"1932"	"sailing"	"open/mixed"	4
+"1932"	"sailing"	"mixed"	4
 "1932"	"shooting"	"men"	2
 "1932"	"swimming"	"men"	6
 "1932"	"swimming"	"women"	5
@@ -225,18 +225,18 @@
 "1936"	"cycling track"	"men"	4
 "1936"	"diving"	"men"	2
 "1936"	"diving"	"women"	2
-"1936"	"dressage"	"open/mixed"	2
-"1936"	"eventing"	"open/mixed"	2
+"1936"	"dressage"	"mixed"	2
+"1936"	"eventing"	"mixed"	2
 "1936"	"fencing"	"men"	6
 "1936"	"fencing"	"women"	1
 "1936"	"football"	"men"	1
 "1936"	"handball"	"men"	1
 "1936"	"hockey"	"men"	1
-"1936"	"jumping"	"open/mixed"	2
+"1936"	"jumping"	"mixed"	2
 "1936"	"modern pentath."	"men"	1
 "1936"	"polo"	"men"	1
 "1936"	"rowing"	"men"	7
-"1936"	"sailing"	"open/mixed"	4
+"1936"	"sailing"	"mixed"	4
 "1936"	"shooting"	"men"	3
 "1936"	"swimming"	"men"	6
 "1936"	"swimming"	"women"	5
@@ -256,16 +256,16 @@
 "1948"	"cycling track"	"men"	4
 "1948"	"diving"	"men"	2
 "1948"	"diving"	"women"	2
-"1948"	"dressage"	"open/mixed"	2
-"1948"	"eventing"	"open/mixed"	2
+"1948"	"dressage"	"mixed"	2
+"1948"	"eventing"	"mixed"	2
 "1948"	"fencing"	"men"	6
 "1948"	"fencing"	"women"	1
 "1948"	"football"	"men"	1
 "1948"	"hockey"	"men"	1
-"1948"	"jumping"	"open/mixed"	2
+"1948"	"jumping"	"mixed"	2
 "1948"	"modern pentath."	"men"	1
 "1948"	"rowing"	"men"	7
-"1948"	"sailing"	"open/mixed"	5
+"1948"	"sailing"	"mixed"	5
 "1948"	"shooting"	"men"	4
 "1948"	"swimming"	"men"	6
 "1948"	"swimming"	"women"	5
@@ -285,17 +285,17 @@
 "1952"	"cycling track"	"men"	4
 "1952"	"diving"	"men"	2
 "1952"	"diving"	"women"	2
-"1952"	"dressage"	"open/mixed"	2
-"1952"	"eventing"	"open/mixed"	2
+"1952"	"dressage"	"mixed"	2
+"1952"	"eventing"	"mixed"	2
 "1952"	"fencing"	"men"	6
 "1952"	"fencing"	"women"	1
 "1952"	"football"	"men"	1
 "1952"	"hockey"	"men"	1
-"1952"	"jumping"	"open/mixed"	2
+"1952"	"jumping"	"mixed"	2
 "1952"	"modern pentath."	"men"	2
 "1952"	"rowing"	"men"	7
 "1952"	"sailing"	"men"	1
-"1952"	"sailing"	"open/mixed"	4
+"1952"	"sailing"	"mixed"	4
 "1952"	"shooting"	"men"	7
 "1952"	"swimming"	"men"	6
 "1952"	"swimming"	"women"	5
@@ -315,17 +315,17 @@
 "1956"	"cycling track"	"men"	4
 "1956"	"diving"	"men"	2
 "1956"	"diving"	"women"	2
-"1956"	"dressage"	"open/mixed"	2
-"1956"	"eventing"	"open/mixed"	2
+"1956"	"dressage"	"mixed"	2
+"1956"	"eventing"	"mixed"	2
 "1956"	"fencing"	"men"	6
 "1956"	"fencing"	"women"	1
 "1956"	"football"	"men"	1
 "1956"	"hockey"	"men"	1
-"1956"	"jumping"	"open/mixed"	2
+"1956"	"jumping"	"mixed"	2
 "1956"	"modern pentath."	"men"	2
 "1956"	"rowing"	"men"	7
 "1956"	"sailing"	"men"	1
-"1956"	"sailing"	"open/mixed"	4
+"1956"	"sailing"	"mixed"	4
 "1956"	"shooting"	"men"	7
 "1956"	"swimming"	"men"	7
 "1956"	"swimming"	"women"	6
@@ -345,17 +345,17 @@
 "1960"	"cycling track"	"men"	4
 "1960"	"diving"	"men"	2
 "1960"	"diving"	"women"	2
-"1960"	"dressage"	"open/mixed"	1
-"1960"	"eventing"	"open/mixed"	2
+"1960"	"dressage"	"mixed"	1
+"1960"	"eventing"	"mixed"	2
 "1960"	"fencing"	"men"	6
 "1960"	"fencing"	"women"	2
 "1960"	"football"	"men"	1
 "1960"	"hockey"	"men"	1
-"1960"	"jumping"	"open/mixed"	2
+"1960"	"jumping"	"mixed"	2
 "1960"	"modern pentath."	"men"	2
 "1960"	"rowing"	"men"	7
 "1960"	"sailing"	"men"	1
-"1960"	"sailing"	"open/mixed"	4
+"1960"	"sailing"	"mixed"	4
 "1960"	"shooting"	"men"	6
 "1960"	"swimming"	"men"	8
 "1960"	"swimming"	"women"	7
@@ -375,18 +375,18 @@
 "1964"	"cycling track"	"men"	5
 "1964"	"diving"	"men"	2
 "1964"	"diving"	"women"	2
-"1964"	"dressage"	"open/mixed"	2
-"1964"	"eventing"	"open/mixed"	2
+"1964"	"dressage"	"mixed"	2
+"1964"	"eventing"	"mixed"	2
 "1964"	"fencing"	"men"	6
 "1964"	"fencing"	"women"	2
 "1964"	"football"	"men"	1
 "1964"	"hockey"	"men"	1
 "1964"	"judo"	"men"	4
-"1964"	"jumping"	"open/mixed"	2
+"1964"	"jumping"	"mixed"	2
 "1964"	"modern pentath."	"men"	2
 "1964"	"rowing"	"men"	7
 "1964"	"sailing"	"men"	1
-"1964"	"sailing"	"open/mixed"	4
+"1964"	"sailing"	"mixed"	4
 "1964"	"shooting"	"men"	6
 "1964"	"swimming"	"men"	10
 "1964"	"swimming"	"women"	8
@@ -408,17 +408,17 @@
 "1968"	"cycling track"	"men"	5
 "1968"	"diving"	"men"	2
 "1968"	"diving"	"women"	2
-"1968"	"dressage"	"open/mixed"	2
-"1968"	"eventing"	"open/mixed"	2
+"1968"	"dressage"	"mixed"	2
+"1968"	"eventing"	"mixed"	2
 "1968"	"fencing"	"men"	6
 "1968"	"fencing"	"women"	2
 "1968"	"football"	"men"	1
 "1968"	"hockey"	"men"	1
-"1968"	"jumping"	"open/mixed"	2
+"1968"	"jumping"	"mixed"	2
 "1968"	"modern pentath."	"men"	2
 "1968"	"rowing"	"men"	7
 "1968"	"sailing"	"men"	1
-"1968"	"sailing"	"open/mixed"	4
+"1968"	"sailing"	"mixed"	4
 "1968"	"shooting"	"men"	7
 "1968"	"swimming"	"men"	15
 "1968"	"swimming"	"women"	14
@@ -444,20 +444,20 @@
 "1972"	"cycling track"	"men"	5
 "1972"	"diving"	"men"	2
 "1972"	"diving"	"women"	2
-"1972"	"dressage"	"open/mixed"	2
-"1972"	"eventing"	"open/mixed"	2
+"1972"	"dressage"	"mixed"	2
+"1972"	"eventing"	"mixed"	2
 "1972"	"fencing"	"men"	6
 "1972"	"fencing"	"women"	2
 "1972"	"football"	"men"	1
 "1972"	"handball"	"men"	1
 "1972"	"hockey"	"men"	1
 "1972"	"judo"	"men"	6
-"1972"	"jumping"	"open/mixed"	2
+"1972"	"jumping"	"mixed"	2
 "1972"	"modern pentath."	"men"	2
 "1972"	"rowing"	"men"	7
 "1972"	"sailing"	"men"	1
-"1972"	"sailing"	"open/mixed"	5
-"1972"	"shooting"	"open/mixed"	8
+"1972"	"sailing"	"mixed"	5
+"1972"	"shooting"	"mixed"	8
 "1972"	"swimming"	"men"	15
 "1972"	"swimming"	"women"	14
 "1972"	"volleyball"	"men"	1
@@ -481,8 +481,8 @@
 "1976"	"cycling track"	"men"	4
 "1976"	"diving"	"men"	2
 "1976"	"diving"	"women"	2
-"1976"	"dressage"	"open/mixed"	2
-"1976"	"eventing"	"open/mixed"	2
+"1976"	"dressage"	"mixed"	2
+"1976"	"eventing"	"mixed"	2
 "1976"	"fencing"	"men"	6
 "1976"	"fencing"	"women"	2
 "1976"	"football"	"men"	1
@@ -490,13 +490,13 @@
 "1976"	"handball"	"women"	1
 "1976"	"hockey"	"men"	1
 "1976"	"judo"	"men"	6
-"1976"	"jumping"	"open/mixed"	2
+"1976"	"jumping"	"mixed"	2
 "1976"	"modern pentath."	"men"	2
 "1976"	"rowing"	"men"	8
 "1976"	"rowing"	"women"	6
 "1976"	"sailing"	"men"	2
-"1976"	"sailing"	"open/mixed"	4
-"1976"	"shooting"	"open/mixed"	7
+"1976"	"sailing"	"mixed"	4
+"1976"	"shooting"	"mixed"	7
 "1976"	"swimming"	"men"	13
 "1976"	"swimming"	"women"	13
 "1976"	"volleyball"	"men"	1
@@ -520,8 +520,8 @@
 "1980"	"cycling track"	"men"	4
 "1980"	"diving"	"men"	2
 "1980"	"diving"	"women"	2
-"1980"	"dressage"	"open/mixed"	2
-"1980"	"eventing"	"open/mixed"	2
+"1980"	"dressage"	"mixed"	2
+"1980"	"eventing"	"mixed"	2
 "1980"	"fencing"	"men"	6
 "1980"	"fencing"	"women"	2
 "1980"	"football"	"men"	1
@@ -530,13 +530,13 @@
 "1980"	"hockey"	"men"	1
 "1980"	"hockey"	"women"	1
 "1980"	"judo"	"men"	8
-"1980"	"jumping"	"open/mixed"	2
+"1980"	"jumping"	"mixed"	2
 "1980"	"modern pentath."	"men"	2
 "1980"	"rowing"	"men"	8
 "1980"	"rowing"	"women"	6
 "1980"	"sailing"	"men"	2
-"1980"	"sailing"	"open/mixed"	4
-"1980"	"shooting"	"open/mixed"	7
+"1980"	"sailing"	"mixed"	4
+"1980"	"shooting"	"mixed"	7
 "1980"	"swimming"	"men"	13
 "1980"	"swimming"	"women"	13
 "1980"	"volleyball"	"men"	1
@@ -561,8 +561,8 @@
 "1984"	"cycling track"	"men"	5
 "1984"	"diving"	"men"	2
 "1984"	"diving"	"women"	2
-"1984"	"dressage"	"open/mixed"	2
-"1984"	"eventing"	"open/mixed"	2
+"1984"	"dressage"	"mixed"	2
+"1984"	"eventing"	"mixed"	2
 "1984"	"fencing"	"men"	6
 "1984"	"fencing"	"women"	2
 "1984"	"football"	"men"	1
@@ -571,16 +571,16 @@
 "1984"	"hockey"	"men"	1
 "1984"	"hockey"	"women"	1
 "1984"	"judo"	"men"	8
-"1984"	"jumping"	"open/mixed"	2
+"1984"	"jumping"	"mixed"	2
 "1984"	"modern pentath."	"men"	2
 "1984"	"rhythmic g."	"women"	1
 "1984"	"rowing"	"men"	8
 "1984"	"rowing"	"women"	6
 "1984"	"sailing"	"men"	3
-"1984"	"sailing"	"open/mixed"	4
+"1984"	"sailing"	"mixed"	4
 "1984"	"shooting"	"men"	6
 "1984"	"shooting"	"women"	3
-"1984"	"shooting"	"open/mixed"	2
+"1984"	"shooting"	"mixed"	2
 "1984"	"swimming"	"men"	15
 "1984"	"swimming"	"women"	14
 "1984"	"synchronized s."	"women"	2
@@ -607,8 +607,8 @@
 "1988"	"cycling track"	"women"	1
 "1988"	"diving"	"men"	2
 "1988"	"diving"	"women"	2
-"1988"	"dressage"	"open/mixed"	2
-"1988"	"eventing"	"open/mixed"	2
+"1988"	"dressage"	"mixed"	2
+"1988"	"eventing"	"mixed"	2
 "1988"	"fencing"	"men"	6
 "1988"	"fencing"	"women"	2
 "1988"	"football"	"men"	1
@@ -617,17 +617,17 @@
 "1988"	"hockey"	"men"	1
 "1988"	"hockey"	"women"	1
 "1988"	"judo"	"men"	7
-"1988"	"jumping"	"open/mixed"	2
+"1988"	"jumping"	"mixed"	2
 "1988"	"modern pentath."	"men"	2
 "1988"	"rhythmic g."	"women"	1
 "1988"	"rowing"	"men"	8
 "1988"	"rowing"	"women"	6
 "1988"	"sailing"	"men"	3
 "1988"	"sailing"	"women"	1
-"1988"	"sailing"	"open/mixed"	4
+"1988"	"sailing"	"mixed"	4
 "1988"	"shooting"	"men"	7
 "1988"	"shooting"	"women"	4
-"1988"	"shooting"	"open/mixed"	2
+"1988"	"shooting"	"mixed"	2
 "1988"	"swimming"	"men"	16
 "1988"	"swimming"	"women"	15
 "1988"	"synchronized s."	"women"	2
@@ -663,8 +663,8 @@
 "1992"	"cycling track"	"women"	2
 "1992"	"diving"	"men"	2
 "1992"	"diving"	"women"	2
-"1992"	"dressage"	"open/mixed"	2
-"1992"	"eventing"	"open/mixed"	2
+"1992"	"dressage"	"mixed"	2
+"1992"	"eventing"	"mixed"	2
 "1992"	"fencing"	"men"	6
 "1992"	"fencing"	"women"	2
 "1992"	"football"	"men"	1
@@ -674,17 +674,17 @@
 "1992"	"hockey"	"women"	1
 "1992"	"judo"	"men"	7
 "1992"	"judo"	"women"	7
-"1992"	"jumping"	"open/mixed"	2
+"1992"	"jumping"	"mixed"	2
 "1992"	"modern pentath."	"men"	2
 "1992"	"rhythmic g."	"women"	1
 "1992"	"rowing"	"men"	8
 "1992"	"rowing"	"women"	6
 "1992"	"sailing"	"men"	3
 "1992"	"sailing"	"women"	3
-"1992"	"sailing"	"open/mixed"	4
+"1992"	"sailing"	"mixed"	4
 "1992"	"shooting"	"men"	7
 "1992"	"shooting"	"women"	4
-"1992"	"shooting"	"open/mixed"	2
+"1992"	"shooting"	"mixed"	2
 "1992"	"swimming"	"men"	16
 "1992"	"swimming"	"women"	15
 "1992"	"synchronized s."	"women"	2
@@ -706,7 +706,7 @@
 "1996"	"athletics"	"women"	20
 "1996"	"badminton"	"men"	2
 "1996"	"badminton"	"women"	2
-"1996"	"badminton"	"open/mixed"	1
+"1996"	"badminton"	"mixed"	1
 "1996"	"baseball"	"men"	1
 "1996"	"basketball"	"men"	1
 "1996"	"basketball"	"women"	1
@@ -723,8 +723,8 @@
 "1996"	"cycling track"	"women"	3
 "1996"	"diving"	"men"	2
 "1996"	"diving"	"women"	2
-"1996"	"dressage"	"open/mixed"	2
-"1996"	"eventing"	"open/mixed"	2
+"1996"	"dressage"	"mixed"	2
+"1996"	"eventing"	"mixed"	2
 "1996"	"fencing"	"men"	6
 "1996"	"fencing"	"women"	4
 "1996"	"football"	"men"	1
@@ -735,7 +735,7 @@
 "1996"	"hockey"	"women"	1
 "1996"	"judo"	"men"	7
 "1996"	"judo"	"women"	7
-"1996"	"jumping"	"open/mixed"	2
+"1996"	"jumping"	"mixed"	2
 "1996"	"modern pentath."	"men"	1
 "1996"	"mountain bike"	"men"	1
 "1996"	"mountain bike"	"women"	1
@@ -744,7 +744,7 @@
 "1996"	"rowing"	"women"	6
 "1996"	"sailing"	"men"	3
 "1996"	"sailing"	"women"	3
-"1996"	"sailing"	"open/mixed"	4
+"1996"	"sailing"	"mixed"	4
 "1996"	"shooting"	"men"	10
 "1996"	"shooting"	"women"	5
 "1996"	"softball"	"women"	1
@@ -769,7 +769,7 @@
 "2000"	"athletics"	"women"	22
 "2000"	"badminton"	"men"	2
 "2000"	"badminton"	"women"	2
-"2000"	"badminton"	"open/mixed"	1
+"2000"	"badminton"	"mixed"	1
 "2000"	"baseball"	"men"	1
 "2000"	"basketball"	"men"	1
 "2000"	"basketball"	"women"	1
@@ -786,8 +786,8 @@
 "2000"	"cycling track"	"women"	4
 "2000"	"diving"	"men"	4
 "2000"	"diving"	"women"	4
-"2000"	"dressage"	"open/mixed"	2
-"2000"	"eventing"	"open/mixed"	2
+"2000"	"dressage"	"mixed"	2
+"2000"	"eventing"	"mixed"	2
 "2000"	"fencing"	"men"	6
 "2000"	"fencing"	"women"	4
 "2000"	"football"	"men"	1
@@ -798,7 +798,7 @@
 "2000"	"hockey"	"women"	1
 "2000"	"judo"	"men"	7
 "2000"	"judo"	"women"	7
-"2000"	"jumping"	"open/mixed"	2
+"2000"	"jumping"	"mixed"	2
 "2000"	"modern pentath."	"men"	1
 "2000"	"modern pentath."	"women"	1
 "2000"	"mountain bike"	"men"	1
@@ -808,7 +808,7 @@
 "2000"	"rowing"	"women"	6
 "2000"	"sailing"	"men"	3
 "2000"	"sailing"	"women"	3
-"2000"	"sailing"	"open/mixed"	5
+"2000"	"sailing"	"mixed"	5
 "2000"	"shooting"	"men"	10
 "2000"	"shooting"	"women"	7
 "2000"	"softball"	"women"	1
@@ -841,7 +841,7 @@
 "2004"	"athletics"	"women"	22
 "2004"	"badminton"	"men"	2
 "2004"	"badminton"	"women"	2
-"2004"	"badminton"	"open/mixed"	1
+"2004"	"badminton"	"mixed"	1
 "2004"	"baseball"	"men"	1
 "2004"	"basketball"	"men"	1
 "2004"	"basketball"	"women"	1
@@ -858,8 +858,8 @@
 "2004"	"cycling track"	"women"	4
 "2004"	"diving"	"men"	4
 "2004"	"diving"	"women"	4
-"2004"	"dressage"	"open/mixed"	2
-"2004"	"eventing"	"open/mixed"	2
+"2004"	"dressage"	"mixed"	2
+"2004"	"eventing"	"mixed"	2
 "2004"	"fencing"	"men"	6
 "2004"	"fencing"	"women"	4
 "2004"	"football"	"men"	1
@@ -870,7 +870,7 @@
 "2004"	"hockey"	"women"	1
 "2004"	"judo"	"men"	7
 "2004"	"judo"	"women"	7
-"2004"	"jumping"	"open/mixed"	2
+"2004"	"jumping"	"mixed"	2
 "2004"	"modern pentath."	"men"	1
 "2004"	"modern pentath."	"women"	1
 "2004"	"mountain bike"	"men"	1
@@ -880,7 +880,7 @@
 "2004"	"rowing"	"women"	6
 "2004"	"sailing"	"men"	4
 "2004"	"sailing"	"women"	4
-"2004"	"sailing"	"open/mixed"	3
+"2004"	"sailing"	"mixed"	3
 "2004"	"shooting"	"men"	10
 "2004"	"shooting"	"women"	7
 "2004"	"softball"	"women"	1
@@ -914,7 +914,7 @@
 "2008"	"athletics"	"women"	23
 "2008"	"badminton"	"men"	2
 "2008"	"badminton"	"women"	2
-"2008"	"badminton"	"open/mixed"	1
+"2008"	"badminton"	"mixed"	1
 "2008"	"baseball"	"men"	1
 "2008"	"basketball"	"men"	1
 "2008"	"basketball"	"women"	1
@@ -933,8 +933,8 @@
 "2008"	"cycling track"	"women"	3
 "2008"	"diving"	"men"	4
 "2008"	"diving"	"women"	4
-"2008"	"dressage"	"open/mixed"	2
-"2008"	"eventing"	"open/mixed"	2
+"2008"	"dressage"	"mixed"	2
+"2008"	"eventing"	"mixed"	2
 "2008"	"fencing"	"men"	5
 "2008"	"fencing"	"women"	5
 "2008"	"football"	"men"	1
@@ -945,7 +945,7 @@
 "2008"	"hockey"	"women"	1
 "2008"	"judo"	"men"	7
 "2008"	"judo"	"women"	7
-"2008"	"jumping"	"open/mixed"	2
+"2008"	"jumping"	"mixed"	2
 "2008"	"modern pentath."	"men"	1
 "2008"	"modern pentath."	"women"	1
 "2008"	"mountain bike"	"men"	1
@@ -955,7 +955,7 @@
 "2008"	"rowing"	"women"	6
 "2008"	"sailing"	"men"	4
 "2008"	"sailing"	"women"	4
-"2008"	"sailing"	"open/mixed"	3
+"2008"	"sailing"	"mixed"	3
 "2008"	"shooting"	"men"	9
 "2008"	"shooting"	"women"	6
 "2008"	"softball"	"women"	1
@@ -989,7 +989,7 @@
 "2012"	"athletics"	"women"	23
 "2012"	"badminton"	"men"	2
 "2012"	"badminton"	"women"	2
-"2012"	"badminton"	"open/mixed"	1
+"2012"	"badminton"	"mixed"	1
 "2012"	"basketball"	"men"	1
 "2012"	"basketball"	"women"	1
 "2012"	"beach volley."	"men"	1
@@ -1008,8 +1008,8 @@
 "2012"	"cycling track"	"women"	5
 "2012"	"diving"	"men"	4
 "2012"	"diving"	"women"	4
-"2012"	"dressage"	"open/mixed"	2
-"2012"	"eventing"	"open/mixed"	2
+"2012"	"dressage"	"mixed"	2
+"2012"	"eventing"	"mixed"	2
 "2012"	"fencing"	"men"	5
 "2012"	"fencing"	"women"	5
 "2012"	"football"	"men"	1
@@ -1020,7 +1020,7 @@
 "2012"	"hockey"	"women"	1
 "2012"	"judo"	"men"	7
 "2012"	"judo"	"women"	7
-"2012"	"jumping"	"open/mixed"	2
+"2012"	"jumping"	"mixed"	2
 "2012"	"modern pentath."	"men"	1
 "2012"	"modern pentath."	"women"	1
 "2012"	"mountain bike"	"men"	1
@@ -1041,7 +1041,7 @@
 "2012"	"taekwondo"	"women"	4
 "2012"	"tennis"	"men"	2
 "2012"	"tennis"	"women"	2
-"2012"	"tennis"	"open/mixed"	1
+"2012"	"tennis"	"mixed"	1
 "2012"	"trampoline"	"men"	1
 "2012"	"trampoline"	"women"	1
 "2012"	"triathlon"	"men"	1
@@ -1063,7 +1063,7 @@
 "2016"	"athletics"	"women"	23
 "2016"	"badminton"	"men"	2
 "2016"	"badminton"	"women"	2
-"2016"	"badminton"	"open/mixed"	1
+"2016"	"badminton"	"mixed"	1
 "2016"	"basketball"	"men"	1
 "2016"	"basketball"	"women"	1
 "2016"	"beach volley."	"men"	1
@@ -1082,8 +1082,8 @@
 "2016"	"cycling track"	"women"	5
 "2016"	"diving"	"men"	4
 "2016"	"diving"	"women"	4
-"2016"	"dressage"	"open/mixed"	2
-"2016"	"eventing"	"open/mixed"	2
+"2016"	"dressage"	"mixed"	2
+"2016"	"eventing"	"mixed"	2
 "2016"	"fencing"	"men"	5
 "2016"	"fencing"	"women"	5
 "2016"	"football"	"men"	1
@@ -1096,7 +1096,7 @@
 "2016"	"hockey"	"women"	1
 "2016"	"judo"	"men"	7
 "2016"	"judo"	"women"	7
-"2016"	"jumping"	"open/mixed"	2
+"2016"	"jumping"	"mixed"	2
 "2016"	"modern pentath."	"men"	1
 "2016"	"modern pentath."	"women"	1
 "2016"	"mountain bike"	"men"	1
@@ -1108,7 +1108,7 @@
 "2016"	"rugby sevens"	"women"	1
 "2016"	"sailing"	"men"	5
 "2016"	"sailing"	"women"	4
-"2016"	"sailing"	"open/mixed"	1
+"2016"	"sailing"	"mixed"	1
 "2016"	"shooting"	"men"	9
 "2016"	"shooting"	"women"	6
 "2016"	"swimming"	"men"	17
@@ -1120,7 +1120,7 @@
 "2016"	"taekwondo"	"women"	4
 "2016"	"tennis"	"men"	2
 "2016"	"tennis"	"women"	2
-"2016"	"tennis"	"open/mixed"	1
+"2016"	"tennis"	"mixed"	1
 "2016"	"trampoline"	"men"	1
 "2016"	"trampoline"	"women"	1
 "2016"	"triathlon"	"men"	1
@@ -1137,81 +1137,81 @@
 "1896"	"total"	"men"	43
 "1900"	"total"	"men"	72
 "1900"	"total"	"women"	2
-"1900"	"total"	"open/mixed"	8
+"1900"	"total"	"mixed"	8
 "1904"	"total"	"men"	91
 "1904"	"total"	"women"	3
 "1908"	"total"	"men"	100
 "1908"	"total"	"women"	4
-"1908"	"total"	"open/mixed"	5
+"1908"	"total"	"mixed"	5
 "1912"	"total"	"men"	85
 "1912"	"total"	"women"	5
-"1912"	"total"	"open/mixed"	11
+"1912"	"total"	"mixed"	11
 "1920"	"total"	"men"	127
 "1920"	"total"	"women"	8
-"1920"	"total"	"open/mixed"	20
+"1920"	"total"	"mixed"	20
 "1924"	"total"	"men"	107
 "1924"	"total"	"women"	10
-"1924"	"total"	"open/mixed"	9
+"1924"	"total"	"mixed"	9
 "1928"	"total"	"men"	86
 "1928"	"total"	"women"	14
-"1928"	"total"	"open/mixed"	9
+"1928"	"total"	"mixed"	9
 "1932"	"total"	"men"	93
 "1932"	"total"	"women"	14
-"1932"	"total"	"open/mixed"	9
+"1932"	"total"	"mixed"	9
 "1936"	"total"	"men"	104
 "1936"	"total"	"women"	15
-"1936"	"total"	"open/mixed"	10
+"1936"	"total"	"mixed"	10
 "1948"	"total"	"men"	106
 "1948"	"total"	"women"	19
-"1948"	"total"	"open/mixed"	11
+"1948"	"total"	"mixed"	11
 "1952"	"total"	"men"	114
 "1952"	"total"	"women"	25
-"1952"	"total"	"open/mixed"	10
+"1952"	"total"	"mixed"	10
 "1956"	"total"	"men"	115
 "1956"	"total"	"women"	26
-"1956"	"total"	"open/mixed"	10
+"1956"	"total"	"mixed"	10
 "1960"	"total"	"men"	112
 "1960"	"total"	"women"	29
-"1960"	"total"	"open/mixed"	9
+"1960"	"total"	"mixed"	9
 "1964"	"total"	"men"	120
 "1964"	"total"	"women"	33
-"1964"	"total"	"open/mixed"	10
+"1964"	"total"	"mixed"	10
 "1968"	"total"	"men"	123
 "1968"	"total"	"women"	39
-"1968"	"total"	"open/mixed"	10
+"1968"	"total"	"mixed"	10
 "1972"	"total"	"men"	133
 "1972"	"total"	"women"	43
-"1972"	"total"	"open/mixed"	19
+"1972"	"total"	"mixed"	19
 "1976"	"total"	"men"	132
 "1976"	"total"	"women"	49
-"1976"	"total"	"open/mixed"	17
+"1976"	"total"	"mixed"	17
 "1980"	"total"	"men"	136
 "1980"	"total"	"women"	50
-"1980"	"total"	"open/mixed"	17
+"1980"	"total"	"mixed"	17
 "1984"	"total"	"men"	147
 "1984"	"total"	"women"	62
-"1984"	"total"	"open/mixed"	12
+"1984"	"total"	"mixed"	12
 "1988"	"total"	"men"	153
 "1988"	"total"	"women"	72
-"1988"	"total"	"open/mixed"	12
+"1988"	"total"	"mixed"	12
 "1992"	"total"	"men"	159
 "1992"	"total"	"women"	86
-"1992"	"total"	"open/mixed"	12
+"1992"	"total"	"mixed"	12
 "1996"	"total"	"men"	163
 "1996"	"total"	"women"	97
-"1996"	"total"	"open/mixed"	11
+"1996"	"total"	"mixed"	11
 "2000"	"total"	"men"	168
 "2000"	"total"	"women"	120
-"2000"	"total"	"open/mixed"	12
+"2000"	"total"	"mixed"	12
 "2004"	"total"	"men"	166
 "2004"	"total"	"women"	125
-"2004"	"total"	"open/mixed"	10
+"2004"	"total"	"mixed"	10
 "2008"	"total"	"men"	165
 "2008"	"total"	"women"	127
-"2008"	"total"	"open/mixed"	10
+"2008"	"total"	"mixed"	10
 "2012"	"total"	"men"	162
 "2012"	"total"	"women"	132
-"2012"	"total"	"open/mixed"	8
+"2012"	"total"	"mixed"	8
 "2016"	"total"	"men"	161
 "2016"	"total"	"women"	136
-"2016"	"total"	"open/mixed"	9
+"2016"	"total"	"mixed"	9
