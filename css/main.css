@@ -29,6 +29,7 @@ svg{
 }
 
 
+
 div.chartTitle{
   font-weight: bold;
   padding: 10px 0px 0px 30px;
@@ -72,7 +73,6 @@ span.header{
 
 .header h2{
     font-family: 'Roboto Slab', serif;
-
 }
 
 .white{
@@ -83,20 +83,7 @@ span.header{
     list-style:none;
     margin:0px 0px 30px 750px;
 }
-.black ul li{
-    float:left;
-    padding:5px;
-    margin:5px;
-    color:#aaa;
-}
-.black ul li a{
-    display:block;
-    color:#f0f0f0;
-}
-.black ul li a:hover{
-    text-decoration:none;
-    color:#fff;
-}
+
 .white ul li{
     float:left;
     padding:5px;
@@ -109,5 +96,5 @@ span.header{
 }
 .white ul li a:hover{
     text-decoration:none;
-    color:#000;
+    color:#E23D28;
 }
