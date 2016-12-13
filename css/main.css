@@ -16,7 +16,7 @@ body{
 
 .dimple-axis{
   font-family: 'Raleway', sans-serif !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   padding-top: 10px !important;
 }
 rect.dimple-legend.dimple-legend-key{
@@ -33,9 +33,14 @@ svg{
 div.chartTitle{
   font-weight: bold;
   padding: 10px 0px 0px 30px;
-
 }
 
+span.subtitle{
+  font-size: 0.7em;
+  color: grey;
+  /*text-align: center;*/
+  margin-left: 350px;
+}
 /* Charts end */
 
 .section{
@@ -52,7 +57,7 @@ a{
 }
 
 .section p{
-    width: 800px;
+    width: 950px;
     margin: 80px 0px 0px 30px;
 }
 
@@ -65,10 +70,12 @@ div.chart{
 }
 
 span.header{
+    width: 8000px;
     position:fixed;
-    left:30px;
-    top:10px;
+    left: 30px;
+    top: 0px;
     color: #E23D28;
+    background-color: white;
 }
 
 .header h2{
@@ -81,7 +88,7 @@ span.header{
 
 .section ul{
     list-style:none;
-    margin:0px 0px 30px 750px;
+    margin:0px 0px 30px 980px;
 }
 
 .white ul li{
