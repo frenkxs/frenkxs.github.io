@@ -55,9 +55,9 @@
           var disciplines = new dimple.chart(svg_1, data);
 
           disciplines.setBounds(100, 30, 1200, 300);
-          var x = disciplines.addCategoryAxis("x", ["Edition"]);
-          // var y = disciplines.addMeasureAxis("y", "c");
-          var y = disciplines.addPctAxis("y", "c");
+          var x = disciplines.addCategoryAxis("x", ["Edition", "Event_gender"]);
+          var y = disciplines.addMeasureAxis("y", "c");
+          // var y = disciplines.addPctAxis("y", "c");
           disciplines.addSeries("Event_gender", dimple.plot.bar);
 
           var legend = disciplines.addLegend(800, 0, 360, 120, "right");
@@ -83,7 +83,7 @@
     <!-- section 2 athletics -->
     <div class="section white" id="section2">
       <p>
-      Women were quickly accepted in swimming, but it took until the 2000s for women to reach a comparable number of disciplines in athletics. It had taken nearly 80 years to introduce women's rowing, but once it happened, it happened quickly. Quite the opposite happened to female kayakers and canoeists: they have been in the olympics programme since the 1940s, but are poorly represented to this day.
+      The growth, however, varied for different sports. It was 'quick and easy' in swimming, but it took until the 2000s for women to reach a comparable number of disciplines in athletics. It had taken nearly 80 years to introduce women's rowing, but once it happened, it happened quickly. Quite the opposite happened to female kayakers and canoeists: they have been in the olympics programme since the 1940s, but are poorly represented to this day.
       </p>
       <ul class="nav">
         <li><a href="#section1">1</a></li>
@@ -233,7 +233,7 @@
               var exclusives = new dimple.chart(svg_3, data);
 
               exclusives.setBounds(100, 30, 1200, "60%");
-              var x = exclusives.addCategoryAxis("x", ["Edition"]);
+              var x = exclusives.addCategoryAxis("x", ["Edition", "Event_gender"]);
               var y = exclusives.addMeasureAxis("y", "c");
               exclusives.addSeries("Gender", dimple.plot.bar);
               var legend = exclusives.addLegend(800, 10, 360, 20, "right");
