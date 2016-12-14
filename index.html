@@ -44,9 +44,7 @@
       </ul>
 
       <div id="chartContainer01" class="chart">
-        <div class="chartTitle">Total number of olympic disciplines by edition and gender</div>
-
-
+        <div class="chartTitle">Proportion of olympic disciplines by edition and gender</div>
 
         <script type="text/javascript">
         var svg_1 = dimple.newSvg("#chartContainer01", 1300, 390);
@@ -57,11 +55,10 @@
           var disciplines = new dimple.chart(svg_1, data);
 
           disciplines.setBounds(100, 30, 1200, 300);
-          var x = disciplines.addCategoryAxis("x", ["Edition", "Event_gender"]);
-          var y = disciplines.addMeasureAxis("y", "c");
-          // var y = disciplines.addPctAxis("y", "c");
+          var x = disciplines.addCategoryAxis("x", ["Edition"]);
+          // var y = disciplines.addMeasureAxis("y", "c");
+          var y = disciplines.addPctAxis("y", "c");
           disciplines.addSeries("Event_gender", dimple.plot.bar);
-
 
           var legend = disciplines.addLegend(800, 0, 360, 120, "right");
           legend.fontFamily = 'Raleway', 'sans-serif';
@@ -75,35 +72,36 @@
             new dimple.color("#EEEEEE")];
             disciplines.draw();
             x.titleShape.text("Olympic years");
-            y.titleShape.text("Number of disciplines");
+            y.titleShape.text("% of disciplines by gender");
           });
         </script>
       </div>
-      <span class="subtitle">The x-axis only show the years in which olympic games did take place. This was not the case for 1916, 1940 and 1944.
+      <span class="subtitle">The x-axis skips over olympic years 1916, 1940 and 1944, in which the olympic games were cancelled.
         <span>
     </div>
 
     <!-- section 2 athletics -->
     <div class="section white" id="section2">
       <p>
-      Women were quickly accepted in swimming, but it took until the 2000s for women to reach a comparable number of disciplines in athletics. It had taken nearly 80 years to introduce women's rowing, but once it happened, it happened quickly. From the other side, female kayakers and canoeists have been competing in the olympics since the 1940s, but are poorly represented to this day.
+      Women were quickly accepted in swimming, but it took until the 2000s for women to reach a comparable number of disciplines in athletics. It had taken nearly 80 years to introduce women's rowing, but once it happened, it happened quickly. Quite the opposite happened to female kayakers and canoeists: they have been in the olympics programme since the 1940s, but are poorly represented to this day.
       </p>
       <ul class="nav">
         <li><a href="#section1">1</a></li>
         <li>&bull;</li>
-        <li>2</li>
+        <li class="current">2</li>
         <li>&bull;</li>
         <li><a href="#section3">3</a></li>
         <li>&bull;</li>
         <li><a href="#section4">4</a></li>
       </ul>
       <div id="chartContainer02" class="chart">
-        <div class="chartTitle">Number of olympic disciplines by edition and gender.
+        <div class="chartTitle">Number of olympic disciplines by edition and gender
           </div>
 
           <script type="text/javascript">
             var svg_2 = dimple.newSvg("#chartContainer02", 1300, 430);
             d3.tsv("/data/disciplines.tsv", function (data) {
+
               // column 1
               // row 1
               data_a = dimple.filterData(data, "Discipline", "swimming");
@@ -118,7 +116,6 @@
               legend.fontFamily = 'Raleway', 'sans-serif';
               legend.fontSize = "15px";
 
-
               athletics.defaultColors = [
                 new dimple.color("#333333"),
                 new dimple.color("#E23D28"),
@@ -128,6 +125,7 @@
               athletics.draw();
               x.titleShape.remove();
               y.titleShape.text("Disciplines");
+
               // row 2
               data_s = dimple.filterData(data, "Discipline", "athletics");
               var swimming = new dimple.chart(svg_2, data_s);
@@ -157,9 +155,10 @@
                   .attr("y", "49%")
                   .style("font-size", "0.8em")
                   .text("Athletics")
+
               // column 2
               // row 1
-              data_a = dimple.filterData(data, "Discipline", "canoe / kayak f");
+              data_a = dimple.filterData(data, "Discipline", "rowing");
               var shooting = new dimple.chart(svg_2, data_a);
               shooting.setBounds("55%", 30, "40%", "27%");
               var x_sh = shooting.addCategoryAxis("x", ["Edition", "Event_gender"]);
@@ -175,7 +174,7 @@
               shooting.draw();
               x_sh.titleShape.remove();
               y_sh.titleShape.remove();
-              data_s = dimple.filterData(data, "Discipline", "rowing");
+              data_s = dimple.filterData(data, "Discipline", "canoe / kayak f");
               var rowing = new dimple.chart(svg_2, data_s);
               rowing.setBounds("55%", "50%", "40%", "27%");
               var x_r = rowing.addCategoryAxis("x", ["Edition", "Event_gender"]);
@@ -196,13 +195,13 @@
                 .attr("x", "50%")
                 .attr("y", 10)
                 .style("font-size", "0.8em")
-                .text("Canoe/Kayak - sprint")
+                .text("Rowing")
 
               svg_2.append("text")
                 .attr("x", "50%")
                 .attr("y", "49%")
                 .style("font-size", "0.8em")
-                .text("Rowing")
+                .text("Canoe/Kayak - sprint")
               });
           </script>
         </div>
@@ -220,7 +219,7 @@
         <li>&bull;</li>
         <li><a href="#section2">2</a></li>
         <li>&bull;</li>
-        <li>3</li>
+        <li class="current">3</li>
         <li>&bull;</li>
         <li><a href="#section4">4</a></li>
       </ul>
@@ -234,7 +233,7 @@
               var exclusives = new dimple.chart(svg_3, data);
 
               exclusives.setBounds(100, 30, 1200, "60%");
-              var x = exclusives.addCategoryAxis("x", ["Edition", "Gender"]);
+              var x = exclusives.addCategoryAxis("x", ["Edition"]);
               var y = exclusives.addMeasureAxis("y", "c");
               exclusives.addSeries("Gender", dimple.plot.bar);
               var legend = exclusives.addLegend(800, 10, 360, 20, "right");
@@ -268,17 +267,17 @@
           <li>&bull;</li>
           <li><a href="#section3">3</a></li>
           <li>&bull;</li>
-          <li>4</li>
+          <li class="current">4</li>
         </ul>
 
         <div id="chartContainer04" class="chart">
           <div class="chartTitle">Open and mixed disciplines: number of gold medalists by gender in all open and mixed sporting events</div>
           <script type="text/javascript">
-          var svg_4 = dimple.newSvg("#chartContainer04", 1300, 500);
+          var svg_4 = dimple.newSvg("#chartContainer04", 1300, 400);
 
           d3.tsv("/data/open.tsv", function (data) {
             var open = new dimple.chart(svg_4, data);
-            open.setBounds(100, 30, 1200, 370);
+            open.setBounds(100, 30, 1200, 320);
             var y = open.addCategoryAxis("y", "Sport");
             var x = open.addCategoryAxis("x", "Edition");
             var z = open.addMeasureAxis("z", "c");
@@ -309,6 +308,8 @@
             });
             </script>
           </div>
+          <span class="subtitle">The size of the pies indicates the total number of gold medalists in a given discipline and year, the colour the male-female proportion.
+            <span>
       </div>
 
   </body>

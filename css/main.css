@@ -5,7 +5,7 @@
 body{
     background:#fff;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     width:8000px;
     position:absolute;
     top:0px;
@@ -28,15 +28,14 @@ svg{
   padding-top: 20px;
 }
 
-
-
 div.chartTitle{
   font-weight: bold;
+  font-size: 1.2em;
   padding: 10px 0px 0px 30px;
 }
 
 span.subtitle{
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: grey;
   /*text-align: center;*/
   margin-left: 350px;
@@ -58,7 +57,7 @@ a{
 
 .section p{
     width: 950px;
-    margin: 80px 0px 0px 30px;
+    margin: 60px 0px 0px 30px;
 }
 
 div.chart{
@@ -80,6 +79,8 @@ span.header{
 
 .header h2{
     font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    margin-bottom: 5px;
 }
 
 .white{
@@ -95,8 +96,15 @@ span.header{
     float:left;
     padding:5px;
     margin:5px;
-    color:#aaa;
+    /*color:#E23D28;*/
 }
+
+li.current{
+  color:#E23D28;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
 .white ul li a{
     display:block;
     color:#222;
