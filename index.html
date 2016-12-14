@@ -233,7 +233,7 @@
               var exclusives = new dimple.chart(svg_3, data);
 
               exclusives.setBounds(100, 30, 1200, "60%");
-              var x = exclusives.addCategoryAxis("x", ["Edition", "Event_gender"]);
+              var x = exclusives.addCategoryAxis("x", ["Edition", "Gender"]);
               var y = exclusives.addMeasureAxis("y", "c");
               exclusives.addSeries("Gender", dimple.plot.bar);
               var legend = exclusives.addLegend(800, 10, 360, 20, "right");
