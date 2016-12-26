@@ -58,7 +58,7 @@ Source: [Udacity discussion forum](https://discussions.udacity.com/t/feedback-on
  - The narrative was too short and didn't relate directly to the data
 
 ### Second iteration
-Based on the feeback, I made a couple of changes to the visualisation (though the main storyline stayed the same):
+Based on the feedback, I made a couple of changes to the visualisation (though the main storyline stayed the same):
 
 1. I changed the narrative so it now refers more directly to the charts and corrected the typos
 2. I added a help text to explain what's going on in the charts
@@ -70,4 +70,5 @@ Based on the feeback, I made a couple of changes to the visualisation (though th
 ### Resources
 - [Dimple library examples](http://dimplejs.org/examples_index.html)
 - [Dimple.js API documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki)
+- [Udacity discussion forum](https://discussions.udacity.com/t/dimple-pie-chart/200048)
 - [Smooth Vertical or Horizontal Page Scrolling with jQuery](https://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/)
