@@ -31,13 +31,13 @@ Colour is used consistently throughout the visualisation to code gender (red for
 ### Feedback
 I collected feedback through Udacity discussion fora (2), and through participant observation (1). I reproduce feedback 1 and 2 in full below:
 
-- **Feedback 1:** Wow, this is great visualization! The storyline is clear and engaging, the graphics are beautiful, the chart types suitable! How can I find out things to improve on though
+* - **Feedback 1:** Wow, this is great visualization! The storyline is clear and engaging, the graphics are beautiful, the chart types suitable! How can I find out things to improve on though
 
 Fix spelling and grammatical errors such as "The the first female athletes...", "another sport have seen..." etc.
 For the 3rd tab, maybe you can consider using a stacked area chart1? It's very good right now, but just for the sake of variety...
 Keep up the great work!
 
-- **Feedback 2:** Thank your for sharing your work! This is a compelling visualization, with a clear overall message. I hadn't realized the major changes in the gender composition of Olympic events until I saw this visualization. I like the multiple panels and enjoyed the narrative in each panel, this is a very effective way to communicate findings. I do have a few comments to help enhance the explanatory nature of the visualization and facilitate the reader's understanding. I break this down by panel:
+**Feedback 2:** *Thank your for sharing your work! This is a compelling visualization, with a clear overall message. I hadn't realized the major changes in the gender composition of Olympic events until I saw this visualization. I like the multiple panels and enjoyed the narrative in each panel, this is a very effective way to communicate findings. I do have a few comments to help enhance the explanatory nature of the visualization and facilitate the reader's understanding. I break this down by panel:
 
   1. A bar chart is a good design choice. To help the reader absorb the information for each year when scanning from left to right,, it may be worth considering a stacked bar plot2
 
@@ -47,7 +47,8 @@ Keep up the great work!
 
   4. This panel is not as clear to me. I do think the plot supports the findings communicated in the narrative. I'm just wondering if there might be a more effective way to present this data. I'll give it some thought and post if I come up with anything. @georgeliu1998 [PV: aka feedback no 1] may have some ideas as well. One thing the viewer may wonder is what the circle areas represent.
 
-On a technical note, the visualization is well rendered and working quite well except for one thing. When scrolling down each panel tile remains static, and ends up obscuring the narrative.
+On a technical note, the visualization is well rendered and working quite well except for one thing. When scrolling down each panel tile remains static, and ends up obscuring the narrative.*
+
 
 Source: [Udacity discussion forum](https://discussions.udacity.com/t/feedback-on-visualisation-on-olympics-and-gender/202752/1)
 
@@ -57,7 +58,7 @@ Source: [Udacity discussion forum](https://discussions.udacity.com/t/feedback-on
  - The narrative was too short and didn't relate directly to the data
 
 ### Second iteration
-Based on the feeback, I made a couple of changes to the visualisation (though the main storyline remained the same):
+Based on the feeback, I made a couple of changes to the visualisation (though the main storyline stayed the same):
 
 1. I changed the narrative so it now refers more directly to the charts and corrected the typos
 2. I added a help text to explain what's going on in the charts
@@ -69,5 +70,4 @@ Based on the feeback, I made a couple of changes to the visualisation (though th
 ### Resources
 - [Dimple library examples](http://dimplejs.org/examples_index.html)
 - [Dimple.js API documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki)
-- [Udacity discussion forum](https://discussions.udacity.com/t/dimple-pie-chart/200048)
 - [Smooth Vertical or Horizontal Page Scrolling with jQuery](https://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/)
