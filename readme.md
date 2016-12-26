@@ -31,9 +31,9 @@ Colour is used consistently throughout the visualisation to code gender (red for
 ### Feedback
 I collected feedback through Udacity discussion fora (2), and through participant observation (1). I reproduce feedback 1 and 2 in full below:
 
-**Feedback 1:** *Wow, this is great visualization! The storyline is clear and engaging, the graphics are beautiful, the chart types suitable! How can I find out things to improve on though
+**Feedback 1:** *Wow, this is great visualization! The storyline is clear and engaging, the graphics are beautiful, the chart types suitable! How can I find out things to improve on though*
 
-Fix spelling and grammatical errors such as "The the first female athletes...", "another sport have seen..." etc.
+*Fix spelling and grammatical errors such as "The the first female athletes...", "another sport have seen..." etc.
 For the 3rd tab, maybe you can consider using a stacked area chart1? It's very good right now, but just for the sake of variety...
 Keep up the great work!*
 
