@@ -1,37 +1,30 @@
+# Data wrangling to prepare the data set for the visualisation
+
 library(reshape2)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
 
+# Complete and update dataset with data from the latest two olympic games (2012 nd 2016)
 medals <- read.csv2('MEDALISTS.csv', sep = ',', stringsAsFactors = FALSE, fileEncoding= "UTF-8")
 events_12_16 <- read.csv2('events2012-16.csv', sep = ',', stringsAsFactors = FALSE, fileEncoding= "UTF-8")
 
 medals <- rbind(medals, events_12_16)
 
-sixteen <- medals[2, ]
-sixteen[1, ] <- NA
-sixteen[1, 2] <- 1916
-
-forty <- medals[2, ]
-forty[1, ] <- NA
-forty[1, 2] <- 1940
-
-fortyfour <- medals[2, ]
-fortyfour[1, ] <- NA
-fortyfour[1, 2] <- 1944
-
-medals <- rbind(medals, sixteen, forty, fortyfour)
 medals[] <- lapply(medals, tolower)
 medals[] <- lapply(medals, factor)
 medals <- medals[complete.cases(medals), ]
 
-# the gold medalist was missing as the original winner (Marion Jones) was suspended 
-# after admitting to doping. The gold medal remained unassigned. To keep the discipline in
-# the list of all discipline, I assigned gold medal to the silver medalist. (Since we are not 
-# interested in individual athletes this won't affect the results.)
-medals[medals$Athlete == 'thanou, ekaterini', 'Medal'] <- 'gold'
+# The origninal dataset was missing a gold medalist in womens' 100 m sprint. - The original winner 
+# (Marion Jones) was suspended after admitting to doping and the gold medal remained unassigned (See more at: 
+# http://www.telegraph.co.uk/sport/othersports/athletics/6772973/IOC-withholds-Marion-Jones-Sydney-100m-gold-from-Katerina-Thanou.html.) 
+# To keep the discipline in the list of all discipline, I added one more line to indicate the gold was unassigned.
+# (Since we are not interested in individual athletes this won't affect the results.)
+medals[medals$Athlete == 'unassigned, unassigned', 'Medal'] <- 'gold'
 
-# total number of sporting events by edition and gender START 
+
+
+##### START total number of sporting events by edition, gender and sport START #########
 all <- medals[medals$Medal == 'gold',  ]
 
 total <- all %>%
@@ -65,74 +58,27 @@ disciplines <- disciplines %>%
 # merge total and disciplines together
 disciplines <- rbind(disciplines, total)
 
-# rename the factor levels for esy reading
+# rename the factor levels for easy reading
 levels(disciplines$Event_gender)[1] <- 'men'
 levels(disciplines$Event_gender)[2] <- 'women'
 levels(disciplines$Event_gender)[3] <- 'open/mixed'
 
-# export
+############ control plots ############
+
+ggplot(data = disciplines, aes(x = Edition, fill = Event_gender)) +
+  geom_bar(position = 'dodge') +
+  scale_fill_brewer(type = "seq", palette = 1)
+
+############ control plots ############
+
+# export into tsv
 write.table(disciplines, "disciplines.tsv", sep="\t", row.names = F)
 
-##### total number of sporting events by edition and gender END
-
-##### plot in r to check the results 
-ggplot(data = disciplines, aes(x = Edition, fill = Event_gender)) +
-  geom_bar(position = 'dodge')
-  
-# it seems we don't need this function anymore !! Thank you for your service !
-disciplines <- function(discipline) {
-  filtered <- medals[medals$Discipline == discipline & medals$Medal == 'Gold',  ]
-  
-  number_disciplines <- filtered %>%
-    group_by(Edition, Event, Event_gender) %>%
-    summarise(
-      c = n()
-    )
-  number_disciplines <- number_disciplines %>%
-    group_by(Edition, Event_gender) %>%
-    summarise(
-      c = n()
-    )
-  
-  editions <- c(1916, 1940, 1944)
-  gender <- c('M', 'M', 'M')
-  c <- c(0, 0, 0)
-  
-  missing_years <- data.frame(Edition = editions, Event_gender = gender, c = c)
-  number_disciplines <- rbind(number_disciplines, missing_years)
-  number_disciplines <- arrange(number_disciplines, Edition)
-  
-  name <- sprintf("%s.tsv", discipline)
-  name <- tolower(name)
-  
-  ggplot() +
-    geom_bar(data = number_disciplines, aes(x = Edition, fill = Event_gender), 
-             colour = 'grey', position = 'dodge', width = 2) +
-    #     geom_bar(data = best, aes(x = Edition, y = medals, fill = Event_gender), 
-    #              stat = 'identity', colour = 'black', position = 'dodge', width = 2) +
-    scale_fill_brewer(type = "seq", palette = 1)
-  
-  write.table(number_disciplines, name, sep="\t", row.names = F)
-}
-
-disciplines('Athletics')
-disciplines('Swimming')
-disciplines('Weightlifting')
-disciplines('Artistic G.')
-disciplines('Rhythmic G.')
-disciplines('Rowing')
-disciplines('Cycling Track')
-disciplines('Shooting')
-
-  plot <- ggplot() +
-    geom_bar(data = number_diciplines, aes(x = Edition, fill = Event_gender), 
-             colour = 'grey', position = 'dodge', width = 2) +
-#     geom_bar(data = best, aes(x = Edition, y = medals, fill = Event_gender), 
-#              stat = 'identity', colour = 'black', position = 'dodge', width = 2) +
-    scale_fill_brewer(type = "seq", palette = 1)
+##### END total number of sporting events by edition, gender and sport END #########
 
 
-# number of mixed or open events
+
+##### START number of mixed or open events START #####
 g <- medals[medals$Event_gender == 'x' & medals$Medal == 'gold',  ]
 
 open <- g %>%
@@ -141,74 +87,25 @@ open <- g %>%
     c = n()
   )
 
-editions <- c(1916, 1940, 1944)
-gender <- c('men', 'men', 'men')
-sport <- c(NA, NA, NA)
-c <- c(0, 0, 0)
+############ control plots ############
 
-missing_years <- data.frame(Edition = editions, Sport = sport, Gender = gender, c = c)
-open <- rbind(open, missing_years)
-open <- arrange(open, Edition)
-
-write.table(open, "open.tsv", sep="\t", row.names = F)
-
-
-plot_2 <- ggplot() +
-  geom_bar(data = open, aes(x = Edition), 
-           colour = 'grey', width = 2)
-
-# floating bar chart - mixed disciplines
 ggplot(data = g, aes(x = Edition, y = Sport)) +
   stat_sum(aes(colour = Gender), geom="point", 
            position = position_dodge(width = 1), alpha = 0.7) +
-  scale_size(range = c(4, 24)) +
-  # scale_x_continuous(breaks = seq(1896, 2016, 4))
+  scale_size(range = c(4, 24))
   
-             geom_point(aes(colour = Sport), size = 5) +
+############ control plots ############
+
+# export into tsv
+write.table(open, "open.tsv", sep="\t", row.names = F)
+
+##### END number of mixed or open events END #####
+
   
-
-
-
-
-
-write.table(number_diciplines, "athletics10.tsv", sep="\t")
-
-best <- g %>% 
-  group_by(Edition, Event_gender, Athlete) %>%
-  summarise(
-    medals = n()
-  ) %>%
-  slice(which.max(medals))
-  
-ggplot() +
-  geom_bar(data = number_diciplines, aes(x = Edition, fill = Event_gender), 
-           position = 'dodge', colour = 'grey', width = 2) +
-  geom_bar(data = best, aes(x = Edition, y = medals, fill = Event_gender), 
-           stat = 'identity', colour = 'black', position = 'dodge', width = 2) +
-  scale_fill_brewer(type = "seq", palette = 4)
-
-filtered <- medals[medals$Discipline == "Athletics" & medals$Medal == 'Gold',  ]
-
-number_disciplines <- filtered %>%
-  group_by(Edition, Event, Event_gender) %>%
-  summarise(
-    c = n()
-)
-
-b <- number_disciplines %>%
-  group_by(Edition, Event_gender) %>%
-  summarise(
-    c = n()
-  )
-
-
-
-# number of disciplines open for men or women only
-
-######## START ################
+#####  START  number of disciplines open for men or women only  START #####    
 exclusives <- medals[medals$Medal == 'gold', c('Edition', 'Discipline', 'Event', 'Event_gender')]
 
-# all the disciplines where athletes compete in particular weight categories
+# All the disciplines where athletes compete in particular weight categories
 # are counted as 1 in calculating the number of exclusive male or female disciplines.
 # The weight categories differ for men and women for obvious reasons, but this doesn't
 # mean that the weight categories are completely exclusive disciplines 
@@ -228,12 +125,6 @@ exclusives$w[exclusives$w > 1] <- 1
 ############ control plots ############
 
 ggplot() +
-        geom_bar(data = exclusives[exclusives$Discipline == "athletics" & exclusives$w == 0, ],
-                 aes(x = Edition)) +
-        geom_bar(data = exclusives[exclusives$Discipline == "athletics" & exclusives$m == 0, ],
-           aes(x = Edition), fill = 'red')
-
-ggplot() +
   geom_bar(data = exclusives[exclusives$w == 0 & exclusives$x == 0, ],
            aes(x = Edition)) +
   geom_bar(data = exclusives[exclusives$m == 0 & exclusives$x == 0, ],
@@ -241,6 +132,8 @@ ggplot() +
 
 ############ control plots ############
 
+
+# add gender column
 exclusives$Gender <- NA
 
 # male exlusives
@@ -259,48 +152,15 @@ exclusives_count <- exclusives %>%
     c = n()
   )
 
-war_years <- exclusives_count[c(2:4), ]
-war_years$Edition <- c(1916, 1940, 1944)
-war_years$Gender <- "M"
-war_years$c <- 0
-
-exclusives_count <- rbind(exclusives_count, war_years)
-
-# final dataset to export into tsv
-write.table(exclusives_count, "exclusives.tsv", sep="\t", row.names = F)
-
-############# EXCLUSIVES - END #################
-
-
-
-
-
-
-
+############ control plots ############
 
 ggplot(data = exclusives_count) +
   geom_bar(aes(x = Edition, y = c, fill = Gender), stat = 'identity', position = 'dodge')
 
-
-ggplot(data = exclusives) +
-  geom_bar(aes(x = Edition, fill = gender), position = 'dodge')
-
-medals <- lapply(medals, tolower)
-
 ############ control plots ############
 
-ggplot() +
-  geom_bar(data = number_disciplines, aes(x = Edition, fill = Event_gender), 
-           colour = 'grey', position = 'dodge', width = 2) +
-  #     geom_bar(data = best, aes(x = Edition, y = medals, fill = Event_gender), 
-  #              stat = 'identity', colour = 'black', position = 'dodge', width = 2) +
-  scale_fill_brewer(type = "seq", palette = 1)
+# final dataset to export into tsv
+write.table(exclusives_count, "exclusives.tsv", sep="\t", row.names = F)
 
-exclusives <- exclusives %>%
-  group_by(Edition, Event, Event_gender) %>%
-  summarise(c = n()
-  )
+#####  END  number of disciplines open for men or women only  END #####    
 
-############ control plots ############
-
-f <- melt(f, Event_gender)
