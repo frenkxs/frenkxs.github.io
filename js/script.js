@@ -8,11 +8,11 @@ $(function() {
 
                     $('html, body').stop().animate({
                         scrollLeft: $($anchor.attr('href')).offset().left
-                    }, 1500,'easeInOutExpo');
+                    }, 1800,'easeInOutExpo');
 
                     $('html, body').stop().animate({
                         scrollLeft: $($anchor.attr('href')).offset().left
-                    }, 1000);
+                    }, 700);
                     event.preventDefault();
                 });
             });
