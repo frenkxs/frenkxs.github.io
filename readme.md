@@ -26,7 +26,7 @@ Sections 1 and 3 both show different statistics per Olympic games and gender, so
 
 For Section 4 I choose a combination of scatter plot and pie chart. The main reason is that it can convey the data in one more dimension, besides year (x-axis) and discipline (y-axis), it also shows the number of gold medalists per year and disciplines (the size of the pies) and their gender proportion (pie segments).
 
-Colour is used consistently throughout the visualisation to code gender (red for female, black for male and grey for mixed). SOMETHING ABOUT ONE COLOUR RED TO STAND OUT
+Colour is used consistently throughout the visualisation to code gender (red for female, black for male). Red - the accent colour of the palette - codes for the 'main characters of the story', the female disciplines and female athletes. The palette thus visually highlights the main messages of the visualisation.
 
 ### Feedback
 I collected feedback through Udacity discussion fora (2), and through participant observation (1). I reproduce feedback 1 and 2 in full below:
@@ -63,10 +63,11 @@ Based on the feeback, I made a couple of changes to the visualisation (though th
 2. I added a help text to explain what's going on in the charts
 3. I fixed the heading obscuring the narrative
 4. I added colour to the navigation to indicate the current position and make the navigation stand out
-5. I was experimenting with the different chart types for sections 1 and 3. Although stacked bar chart (as suggested in feedback 1 and 2) was easier to absorb by the user and visually more appealing, it also concealed absolute differences between categories (in this case male, female and mixed). Another possibility was to use 100 % bar plot which did a good job in showing the changing proportion of male and female disciplines over time, but hid the change in absolute numbers. In the end, I returned to the original version of grouped bar charts.
+5. I removed the 'mixed' category in the chart no.1 to make the male and female categories stand out.
+6. I was experimenting with the different chart types for sections 1 and 3. Although stacked bar chart (as suggested in feedback 1 and 2) was easier to absorb by the user and visually more appealing, it also concealed absolute differences between categories (in this case male, female and mixed). Another possibility was to use 100 % bar plot which did a good job in showing the changing proportion of male and female disciplines over time, but hid the change in absolute numbers. In the end, I returned to the original version of grouped bar charts.
 
 ### Resources
 - [Dimple library examples](http://dimplejs.org/examples_index.html)
-- [Udacity discussion forum](https://discussions.udacity.com/t/dimple-pie-chart/200048)
 - [Dimple.js API documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki)
+- [Udacity discussion forum](https://discussions.udacity.com/t/dimple-pie-chart/200048)
 - [Smooth Vertical or Horizontal Page Scrolling with jQuery](https://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/)

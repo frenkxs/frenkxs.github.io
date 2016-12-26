@@ -2,7 +2,7 @@
     Dimple.js Chart construction code - chart no. 4
 */
 
-var svg_4 = dimple.newSvg("#container04", 1300, 400);
+var svg_4 = dimple.newSvg("#container04", 1300, 405);
 
 d3.tsv("/data/open.tsv", function (data) {
   var open = new dimple.chart(svg_4, data);
