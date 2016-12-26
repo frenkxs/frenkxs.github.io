@@ -37,17 +37,17 @@ I collected feedback through Udacity discussion fora (2), and through participan
 For the 3rd tab, maybe you can consider using a stacked area chart1? It's very good right now, but just for the sake of variety...
 Keep up the great work!*
 
-**Feedback 2:** *Thank your for sharing your work! This is a compelling visualization, with a clear overall message. I hadn't realized the major changes in the gender composition of Olympic events until I saw this visualization. I like the multiple panels and enjoyed the narrative in each panel, this is a very effective way to communicate findings. I do have a few comments to help enhance the explanatory nature of the visualization and facilitate the reader's understanding. I break this down by panel:
+**Feedback 2:** *Thank your for sharing your work! This is a compelling visualization, with a clear overall message. I hadn't realized the major changes in the gender composition of Olympic events until I saw this visualization. I like the multiple panels and enjoyed the narrative in each panel, this is a very effective way to communicate findings. I do have a few comments to help enhance the explanatory nature of the visualization and facilitate the reader's understanding. I break this down by panel:*
 
-  1. A bar chart is a good design choice. To help the reader absorb the information for each year when scanning from left to right,, it may be worth considering a stacked bar plot2
+  *1. A bar chart is a good design choice. To help the reader absorb the information for each year when scanning from left to right,, it may be worth considering a stacked bar plot2*
 
-  2. There are clear differences in growth amongst groupings. Keeping in mind that I haven't had enough coffee this morning, :slight_smile: it did take me a few minutes to determine the meaning of the x-axis. It might be worth expanding the narrative a little to more clearly explain these plots and their meaning.
+  *2. There are clear differences in growth amongst groupings. Keeping in mind that I haven't had enough coffee this morning, :slight_smile: it did take me a few minutes to determine the meaning of the x-axis. It might be worth expanding the narrative a little to more clearly explain these plots and their meaning.*
 
-  3. My comments here are the same as 1.
+  *3. My comments here are the same as 1.*
 
-  4. This panel is not as clear to me. I do think the plot supports the findings communicated in the narrative. I'm just wondering if there might be a more effective way to present this data. I'll give it some thought and post if I come up with anything. @georgeliu1998 [PV: aka feedback no 1] may have some ideas as well. One thing the viewer may wonder is what the circle areas represent.
+  *4. This panel is not as clear to me. I do think the plot supports the findings communicated in the narrative. I'm just wondering if there might be a more effective way to present this data. I'll give it some thought and post if I come up with anything. @georgeliu1998 [PV: aka feedback no 1] may have some ideas as well. One thing the viewer may wonder is what the circle areas represent.*
 
-On a technical note, the visualization is well rendered and working quite well except for one thing. When scrolling down each panel tile remains static, and ends up obscuring the narrative.*
+*On a technical note, the visualization is well rendered and working quite well except for one thing. When scrolling down each panel tile remains static, and ends up obscuring the narrative.*
 
 
 Source: [Udacity discussion forum](https://discussions.udacity.com/t/feedback-on-visualisation-on-olympics-and-gender/202752/1)
