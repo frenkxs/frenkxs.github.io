@@ -31,11 +31,11 @@ Colour is used consistently throughout the visualisation to code gender (red for
 ### Feedback
 I collected feedback through Udacity discussion fora (2), and through participant observation (1). I reproduce feedback 1 and 2 in full below:
 
-* - **Feedback 1:** Wow, this is great visualization! The storyline is clear and engaging, the graphics are beautiful, the chart types suitable! How can I find out things to improve on though
+**Feedback 1:** *Wow, this is great visualization! The storyline is clear and engaging, the graphics are beautiful, the chart types suitable! How can I find out things to improve on though
 
 Fix spelling and grammatical errors such as "The the first female athletes...", "another sport have seen..." etc.
 For the 3rd tab, maybe you can consider using a stacked area chart1? It's very good right now, but just for the sake of variety...
-Keep up the great work!
+Keep up the great work!*
 
 **Feedback 2:** *Thank your for sharing your work! This is a compelling visualization, with a clear overall message. I hadn't realized the major changes in the gender composition of Olympic events until I saw this visualization. I like the multiple panels and enjoyed the narrative in each panel, this is a very effective way to communicate findings. I do have a few comments to help enhance the explanatory nature of the visualization and facilitate the reader's understanding. I break this down by panel:
 
