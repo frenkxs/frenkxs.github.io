@@ -33,5 +33,4 @@ Colour is used consistently throughout the visualisation to code for gender (red
 ### Resources
 - [Dimple library examples](http://dimplejs.org/examples_index.html)
 - [Dimple.js API documentation](https://github.com/PMSI-AlignAlytics/dimple/wiki)
-- [Udacity discussion forum](https://discussions.udacity.com/t/dimple-pie-chart/200048)
 - [Smooth Vertical or Horizontal Page Scrolling with jQuery](https://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/)
